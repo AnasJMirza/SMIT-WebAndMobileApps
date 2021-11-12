@@ -1,0 +1,94 @@
+@font-face {
+    font-family: google sans;
+    src: url(./assets/fonts/Google-sans-Font-Family/ProductSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: volkhov;
+    src: url(./assets/fonts/Volkhov/Volkhov-Bold.ttf);
+}
+
+
+
+
+#signup{
+    border: 1px solid rgba(33, 40, 50, 1);
+    border-radius: 6px;
+}
+
+.nav{
+    margin-right: 15px;
+    margin-top: 20px;
+    color: rgba(33, 40, 50, 1);
+    font-family: google sans;
+    font-size: 17px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.logoTop{
+    margin-top: 35px;
+}
+
+
+
+.pinkDecor{
+    
+    /* background-image: url('./assets/images/PinkDecor.png');
+    background-repeat: no-repeat; */
+    
+    width: 50%;
+    height: 800px;
+    
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+.paraSmall{
+    margin-top: 12%;
+    font-family: poppins;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
+    color: rgba(223, 105, 81, 1);
+}
+
+.paraHead{
+    font-family: volkhov;
+    width: 545px;
+    height: 267px;
+    font-size: 75px;
+    font-weight: 700;
+    line-height: 89px;
+    color: rgba(24, 30, 75, 1);
+
+    
+}
+
+
+.girl{
+    width: 100%;
+    height: 100%;
+}
+
+
+.paraBelowHead{
+    font-family: poppins;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 30px;
+    color: rgba(94, 98, 130, 1);
+    width: 477px;
+}
+
+.btn-warning{
+    color: white;
+    padding: 7px 15px 7px 15px;
+    border-radius: 7px;
+}
+
+.bg{
+    background-image: url('./assets/images/PinkDecor.png');
+    background-repeat: no-repeat;
+}
