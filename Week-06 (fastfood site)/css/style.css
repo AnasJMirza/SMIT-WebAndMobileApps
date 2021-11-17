@@ -1,18 +1,38 @@
+@font-face {
+    font-family: poppins;
+    src: url('../assets/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: archivo;
+    src: url('../assets/fonts/Archivo/Archivo-VariableFont_wdth\,wght.ttf');
+}
+
+@font-face {
+    font-family: nunito;
+    src: url('../assets/fonts/Nunito/Nunito-Regular.ttf');
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url('../assets/fonts/Montserrat/Montserrat-Bold.ttf');
+}
+
 .bg1{
     background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0) ),url(../assets/images/bigburgere.png);
     height: 796px;
-    /* width: 100%; */
+    width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
 
 }
 
 .mainHead{
-    font-size: 78px;
+    font-size: 90px;
     color: white;
-    font-family: poppins;
+    font-family: archivo;
     font-weight: 600;
-    line-height: 85px;
+    line-height: 100px;
     margin-left: 40px;
     margin-top: 100px;
 }
@@ -21,8 +41,9 @@
     margin-top: 25px;
     margin-left: 40px;
     color: white;
-    font-family: poppins;
-    font-size: 20px;
+    font-family: nunito;
+    font-size: 28px;
+    
 }
 
 .logo{
@@ -42,4 +63,18 @@
     font-family: poppins;
     font-weight: 600;
     font-size: 20px;
+}
+
+.btn{
+    color: white;
+    text-transform: uppercase;
+    font-family: montserrat;
+    margin-left: 40px;
+    font-size: 20px;
+    
+    margin-top: 25px;
+    background-color: #f64b3c;
+    padding: 10px 20px;
+    width: 270px;
+    border-radius: 40px;
 }
