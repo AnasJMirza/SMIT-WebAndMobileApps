@@ -1,3 +1,5 @@
+/* Header starts here */
+
 @font-face {
     font-family: poppins;
     src: url('../assets/fonts/Poppins/Poppins-Bold.ttf');
@@ -18,9 +20,14 @@
     src: url('../assets/fonts/Montserrat/Montserrat-Bold.ttf');
 }
 
+@font-face {
+    font-family: montserrat regular;
+    src: url('../assets/fonts/Montserrat/Montserrat-Regular.ttf');
+}
+
 .bg1{
     background-image: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,0.5),rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,0) ),url(../assets/images/bigburgere.png);
-    height: 796px;
+    height: 745px;
     width: 100%;
     background-size: contain;
     background-repeat: no-repeat;
@@ -78,3 +85,122 @@
     width: 270px;
     border-radius: 40px;
 }
+
+/* Section two starts here */
+
+.bg2{
+    background-color: rgba(246,238,223,1);
+    height: 745px;
+    
+}
+
+.head2{
+    text-align: center;
+    font-family: archivo;
+    color: #f64b3c;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 50px;
+}
+
+.para2{
+    text-align: center;
+    font-family: montserrat regular;
+    color: #f64b3c;
+    /* font-weight: 100; */
+    font-size: 20px;
+    /* width: 50px; */
+    /* margin-top: 50px; */
+}
+
+.onion{
+    width: 30%;
+    position: relative;
+    left: 200px;
+    top: 50px;
+}
+
+.fries{
+    width: 40%;
+    position: relative;
+    top: 200px;
+    right: 140px;
+}
+
+.burger{
+    width: 50%;
+    /* used to filp image horizentally */
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+
+    position: relative;
+    top: 85px;
+    left: 100px;
+}
+
+
+
+.personImage{
+    border-radius: 50%;
+    width: 60%;
+    /* border: 2px solid black; */
+    /* margin-left: 10%; */
+    margin-top: 10%;
+    
+}
+
+.center{
+    text-align: center;
+}
+
+.imageName{
+    text-align: center;
+    font-family: archivo;
+    color: #f64b3c;
+    font-weight: 700;
+    font-size: 35px;
+    margin-top: 5px;
+}
+
+.imageDesignation{
+    text-align: center;
+    font-family: archivo;
+    color: #f64b3c;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: -10px;
+}
+
+.leaf, .shimla, .mashroom{
+    width: 25%;
+}
+
+.shimla{
+    position: relative;
+    /* left: 350px;
+    bottom:200px; */
+    left: 96%;
+    bottom: 200%;
+}
+
+.mashroom{
+    transform: rotate(75deg);
+    position: relative;
+    top: 40%;
+    left: 89%;
+    width: 20%;
+}
+
+.leaf{
+    transform: rotate(40deg);
+    position: relative;
+    left: 85%;
+    top: 40%;
+}
+
+
+
+
+
+
+
