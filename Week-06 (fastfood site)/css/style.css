@@ -198,6 +198,45 @@
     top: 40%;
 }
 
+.bg3{
+    background-color: #f64b3c;
+    height: 745px;
+}
+
+.burger3{
+    margin-top: 35%;
+    width: 70%;
+    border-radius: 50%;
+}
+
+.head3{
+    font-family: archivo;
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 40%;
+}
+
+.para3{
+    font-family: nunito;
+    color: white;
+    font-size: 25px;
+}
+
+.btn3{
+    color: #f64b3c;
+    text-transform: uppercase;
+    font-family: montserrat;
+    /* margin-left: 40px; */
+    font-size: 20px;
+    text-align: center;
+    
+    margin-top: 25px;
+    background-color: white;
+    padding: 10px 20px;
+    width: 270px;
+    border-radius: 40px;
+}
 
 
 
