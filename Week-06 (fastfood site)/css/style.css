@@ -238,8 +238,101 @@
     border-radius: 40px;
 }
 
+/* section 4 started */
 
+.bg4{
+    background-color: #f6eedf;
+    height: 745px;
+}
 
+.burger4{
+    margin-left: 15%;
+    margin-top: 30%;
+    width: 60%;
+    border-radius: 50%;
+}
+
+.head4{
+    margin-left: 15%;
+    font-family: archivo;
+    color: #f64b3c;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 38%
+}
+
+.para4{
+    margin-left: 15%;
+    font-family: nunito;
+    color: #f64b3c;
+    font-size: 25px;
+}
+
+.btn4{
+    margin-left: 15%;
+    color: white;
+    text-transform: uppercase;
+    font-family: montserrat;
+    /* margin-left: 40px; */
+    font-size: 20px;
+    /* text-align: center; */
+    
+    margin-top: 25px;
+    background-color: #f64b3c;
+    padding: 10px 20px;
+    width: 270px;
+    border-radius: 40px;
+    text-align: center;
+}
+
+.shimla4{
+    width: 10%;
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    position: relative;
+    bottom: 52%;
+    right: 3%;
+}
+
+.onion4{
+    width: 15%;
+    transform: rotate(100deg);
+
+    position: relative;
+    top: 5%;
+    left: 8%;
+}
+
+.mashroom4{
+    width: 10%;
+    transform: rotate(195deg);
+    position: relative;
+    top: 2%;
+    left: 60%;
+}
+
+.bgburger4{
+    width: 25%;
+    position: relative;
+    left: 45%;
+    bottom: 66%;
+}
+
+.fries4{
+    width: 20%;
+    transform: rotate(-40deg);
+    
+    position: relative;
+    bottom: 2%;
+    left: 80%;
+}
+
+.leaf4{
+    width: 15%;
+    transform: rotate(20deg);
+    position: relative;
+    bottom: 15%;
+}
 
 
 
