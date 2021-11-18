@@ -334,5 +334,72 @@
     bottom: 15%;
 }
 
+/* section 5 starts here */
+
+.bg5{
+    background-color: #f64b3c;
+    height: 745px;
+}
+
+.head5{
+    /* margin-left: 15%; */
+    text-align: center;
+    font-family: archivo;
+    color: white;
+    font-weight: 700;
+    font-size: 55px;
+    margin-top: 5%  
+}
+
+.para5{
+    font-family: montserrat regular;
+    color: white;
+    font-size: 22px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.statsHead{
+    color: white;
+    font-family: archivo;
+    font-weight: bolder;
+    font-size: 50px;
+    text-align: center;
+    border: 3px solid white;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    /* padding: 10px; */
+
+    position: relative;
+    top: 75px;
+}
+
+.statsNumber{
+    color: white;
+    font-family: archivo;
+    font-weight: bolder;
+    font-size: 95px;
+    /* border: 2px solid black; */
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    
+    position: relative;
+    bottom: 30%;
+}
+
+.disc5{
+    /* color: white; */
+    font-family: montserrat;
+    text-align: center;
+    width: 300px;
+    height: 300px;
+    font-size: 30px;
+
+    position: relative;
+    bottom: 60%;
+}
+
 
 
