@@ -571,8 +571,8 @@
 
 .head-7{
     color: white;
-    font-family: archivo;
-    font-weight: 500;
+    font-family: archivo bold;
+    /* font-weight: 500; */
     font-size: 35px;
     text-align: center;
     margin-top: 35%;
@@ -581,8 +581,60 @@
 .name-7{
     color: white;
     font-family: 'Times New Roman', Times, serif;
-    font-weight: 700;
+    font-weight: bolder;
     font-size: 40px;
     text-align: center;
     margin-top: 10%;
+}
+
+
+/* Section-8 Starts from here */
+
+
+/* Section-9 Starts from here */
+
+.bg-9{
+    background-color: #222222;
+    height: 650px;
+}
+
+.title-9{
+    margin-top: 40%;
+    color: white;
+    font-family: archivo bold;
+    font-size: 25px;
+}
+
+.titlePara-9{
+    color: white;
+    width: 80%;
+    font-family: nunito;
+    font-size: 18px;
+
+    margin-top: 2%;
+}
+
+.insta-9, .fb-9, .twitter-9, .whatsapp-9{
+    margin-top: 2%;
+    width: 6%;
+}
+
+.about-9, .services-9, .others-9{
+    margin-top: 129%;
+    color: white;
+    font-family: archivo bold;
+    font-size: 25px;
+}
+
+.aboutPara-9, .servicesPara-9, .othersPara-9{
+    color: white;
+    /* width: 85%; */
+    font-family: nunito;
+    font-size: 18px;
+
+    margin-top: 2%;
+}
+
+.cen{
+    margin-left: 9%;
 }
