@@ -559,3 +559,30 @@
 
     z-index: 1;
 }
+
+
+/* Section-7 Starts from here */
+
+.bg-7{
+    background-image: linear-gradient(rgb(246, 75, 60, 0.8), rgb(246, 75, 60, 0.8)), url('../assets/images/background1.png');
+
+    height: 796px;
+}
+
+.head-7{
+    color: white;
+    font-family: archivo;
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    margin-top: 35%;
+}
+
+.name-7{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 10%;
+}
