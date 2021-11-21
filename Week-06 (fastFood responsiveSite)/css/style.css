@@ -1,0 +1,53 @@
+@font-face {
+    font-family: poppins semibold;
+    src: url(../assets/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+
+
+/* Section-01 starts from here */
+
+
+.body{
+    padding: 0px;
+    height: 0px;
+}
+
+.bgSec-1{
+    background-image: url('../assets/images/gradient.png'), url('../assets/images/bigburgere.png');
+    height: 745px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: contain, contain;
+    width: 100%;
+    
+}
+
+.logo{
+    width: 20%;
+    border: 2px solid white;
+}
+
+.nav-link{
+    color: white;
+    font-size: 140%;
+    font-family: poppins semibold;
+    text-transform: uppercase;
+    margin-right: 30px;
+}
+
+.nav{
+    border: 2px solid white;
+
+}
+
+@media (max-width: 768px){
+
+    .logo {
+        width: 10%;
+        /* margin-left: 50%; */
+      }
+
+    /* .nav-link{
+        font-size: 10px;
+    } */
+
+}
