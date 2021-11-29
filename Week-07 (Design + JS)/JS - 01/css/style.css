@@ -27,3 +27,11 @@
     text-align: center;
     padding: 5px;
 }
+
+
+@media (max-width: 400px){
+    #notes{
+        font-size: 10px;
+        width: 40%;
+    }
+}
