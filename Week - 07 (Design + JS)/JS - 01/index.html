@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js - 01</title>
+    <link rel="stylesheet" href="./assets/bootstrap-5.1.3-dist/bootstrap-5.1.3-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <form action="#">
+
+        <!-- Question - 01 -->
+
+        <div id="ques-01">
+
+            <h2 class="questions">Q - 01 : Write a js program to find maximum between two numbers.</h2>
+            <br>
+            
+            <h4 class="number-01">Enter Number</h4>
+            <input type="number" id="number1-01" placeholder="Enter 1st Number">
+            
+            <br><br>
+            <h4 class="number-01">Enter Number</h4>
+            <input type="number" id="number2-01" placeholder="Enter 2nd Number">
+            
+            <br>
+            <br>
+            
+            <button id="findMax" onclick="max()" class="btn btn-success">Find Max</button>
+            <br><br>
+            
+            <h4 id="result-01">Maximum = 0</h4>
+
+        </div>
+
+        <!-- Question - 02 -->
+
+        <div id="ques-02">
+
+            <h2 class="questions">Q - 02 : Write a js program to find maximum between three numbers.</h2>
+            <br>
+
+            <h4 class="number-02">Enter Number</h4>
+            <input type="number" id="number1-02" placeholder="Enter 1st Number">
+            
+            <br><br>
+            <h4 class="number-02">Enter Number</h4>
+            <input type="number" id="number2-02" placeholder="Enter 2nd Number">
+            
+            <br>
+            <br>
+            
+            <button id="findMin" onclick="min()" class="btn btn-success">Find Min</button>
+            <br><br>
+
+            <h4 id="result-02">Minimum = 0</h4>
+
+        </div>
+
+
+        <!-- Question - 03 -->
+
+        <div id="ques-03">
+
+            <h2 class="questions">Q - 03 : Write a js program to check whether a number is negative, positive or zero.</h2>
+            <br>
+        
+            <h4 class="number-03">Enter Number</h4>
+            <input type="number" id="number1-03" placeholder="Enter a Number">
+
+            <br>
+            <br>
+
+            <button id="check" onclick="typeCheck()" class="btn btn-success">Check</button>
+            <br><br>
+
+            <h4 id="result-03" >Number = 0</h4>
+
+        </div>
+
+        <!-- Question - 04 -->
+
+        <div id="ques-04">
+
+            <h2 class="questions">Q - 04 : Write a js program to check whether a number is divisible by 5 and 11 or not.</h2>
+            <br>
+
+            <h4 class="number-04">Enter Number</h4>
+            <input type="number" id="number1-04" placeholder="Enter a Number">
+
+            <br>
+            <br>
+
+            <button id="check" onclick="divCheck()" class="btn btn-success">Check</button>
+            <br><br>
+
+            <h4 id="result-04">Result = Neutral</h4>
+
+        </div>
+
+
+        <!-- Question - 05 -->
+
+        <div id="ques-05">
+
+            <h2 class="questions">Q - 05 : Write a js program to check whether a number is even or odd.<h2>
+            <br>
+
+            <h4 class="number-05">Enter Number</h4>
+            <input type="number" id="number1-05" placeholder="Enter a Number">
+
+            <br>
+            <br>
+
+            <button id="check" onclick="evenOrOdd()" class="btn btn-success">Check</button>
+            <br><br>
+
+            <h4 id="result-05">Number = Neutral</h4>
+
+        </div>
+
+
+        <!-- Question - 06 -->
+
+        <div id="ques-06">
+
+            <h2 class="questions">Q - 06 : Write a js program to check whether a year is leap year or not.<h2>
+            <br>
+
+            <h4 class="number-06">Enter Year</h4>
+            <input type="number" id="number1-06" placeholder="Enter Year (yyyy)">
+
+            <br>
+            <br>
+
+            <button id="check" onclick="leepYearCheck()" class="btn btn-success">Check</button>
+            <br><br>
+
+            <h4 id="result-06">Result = Neutral</h4>
+
+        </div>
+
+
+        <!-- Question - 07 -->
+
+        <div id="ques-07">
+
+            <h2 class="questions">Q - 07 : Write a js program to check whether a character is alphabet or not.<h2>
+            <br>
+
+            <h4 class="character-07">Enter Character</h4>
+            <input type="text" id="character-07" placeholder="Enter a character">
+
+            <br>
+            <br>
+
+            <button id="check" onclick="checkCharacter()" class="btn btn-success">Check</button>
+            <br><br>
+
+            <h4 id="result-07">Character = Neutral</h4>
+
+        </div>
+
+
+        <!-- Question - 08 -->
+
+        <div id="ques-08">
+
+            <h2 class="questions">Q - 08 : Write a js program to input any alphabet and check whether it is vowel or consonant.<h2>
+            <br>
+
+            <h4 class="character-08">Enter Character</h4>
+            <input type="text" id="character-08" placeholder="Enter a character">
+
+            <br>
+            <br>
+
+            <button id="check" onclick="checkVovel()" class="btn btn-success">Check</button>
+            <br><br>
+
+            <h4 id="result-08">Character = Neutral</h4>
+
+        </div>
+
+
+        <!-- Question - 09 -->
+
+        <div id="ques-09">
+
+            <h2 class="questions">Q - 09 : Write a js program to input any character and check whether it is alphabet, digit or special character.<h2>
+            <br>
+
+            <h4 class="character-09">Enter Character</h4>
+            <input type="text" id="character-09" placeholder="Enter a character">
+
+            <br>
+            <br>
+
+            <button id="check" onclick="checkIt()" class="btn btn-success">Check</button>
+            <br><br>
+
+            <h4 id="result-09">Character = Neutral</h4>
+
+        </div>
+
+
+        <!-- Question - 10 -->
+
+        <div id="ques-10">
+
+            <h2 class="questions">Q - 10 : Write a js program to check whether a character is uppercase or lowercase alphabet.<h2>
+            <br>
+
+            <h4 class="character-10">Enter Character</h4>
+            <input type="text" id="character-10" placeholder="Enter a character">
+
+            <br>
+            <br>
+
+            <button id="check" onclick="UpperOrLower()" class="btn btn-success">Check</button>
+            <br><br>
+
+            <h4 id="result-10">Character = Neutral</h4>
+
+        </div>
+
+
+        <!-- Question - 11 -->
+
+        <div id="ques-11">
+
+            <h2 class="questions">Q - 11 : Write a js program to input week number and print week day.<h2>
+            <br>
+
+            <h4 class="weekNumber-11">Enter DayNumber</h4>
+            <input type="number" id="weekNumber-11" placeholder="Enter Number (1 - 7)">
+
+            <br>
+            <br>
+
+            <button id="check" onclick="weekDay()" class="btn btn-success">Day</button>
+            <br><br>
+
+            <h4 id="result-11">Day = None</h4>
+
+        </div>
+
+
+        <!-- Question - 12 -->
+
+        <div id="ques-12">
+
+            <h2 class="questions">Q - 12 : Write a js program to input month number and print number of days in that month.<h2>
+            <br>
+
+            <h4 class="monthNumber-12">Enter Month Number</h4>
+            <input type="number" id="monthNumber-12" placeholder="Enter Number (1 - 12)">
+
+            <br>
+            <br>
+
+            <button id="check" onclick="monthDays()" class="btn btn-success">Day</button>
+            <br><br>
+
+            <h4 id="result-12">MonthDays = None</h4>
+
+        </div>
+
+
+        <!-- Question - 13 -->
+
+        <div id="ques-13">
+
+            <h2 class="questions">Q - 13 : Write a js program to count total number of notes in given amount. (Min Note = 50)<h2>
+            <br>
+
+            <h4 class="amount-13">Enter Amount</h4>
+            <input type="number" id="amount-13" placeholder="Enter Amount">
+
+            <br>
+            <br>
+
+            <button id="check" onclick="checkNotes()" class="btn btn-success">Check</button>
+            <br><br>
+
+            <h4 id="notes">Number of Notes</h4>
+            <h4 id="fiveThousand">Five Thousand = </h4>
+            <h4 id="thousand">Thousand = </h4>
+            <h4 id="fiveHundred">Five Hundred = </h4>
+            <h4 id="hundred">Hundred = </h4>
+            <h4 id="fifty">Fifty = </h4>
+
+        </div>
+
+
+    </form>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,354 @@
+
+// Question - 01 
+
+function max() {
+
+    var numOne = document.getElementById("number1-01").value
+    var numTwo = document.getElementById("number2-01").value
+
+    var maximum = Math.max(numOne, numTwo)
+
+    document.getElementById("result-01").innerHTML = `Maximum = ${maximum}`
+}
+
+
+// Quesion - 02
+
+function min() {
+
+    var numOne = document.getElementById("number1-02").value
+    var numTwo = document.getElementById("number2-02").value
+
+    var minimum = Math.min(numOne, numTwo)
+
+    document.getElementById("result-02").innerHTML = `Maximum = ${minimum}`
+}
+
+// Question - 03
+
+function typeCheck() {
+    
+    var number = document.getElementById("number1-03").value
+
+    if (number > 0) {
+        number = "Positive"
+    }
+
+    else if (number < 0) {
+        number = "Negitive"
+    }
+
+    else {
+        number = 0
+    }
+
+    document.getElementById("result-03").innerHTML = `Number = ${number}`
+}
+
+
+// Question - 04
+
+function divCheck() {
+
+    var numOne = document.getElementById("number1-04").value
+
+    if (numOne % 5 == 0 && numOne % 11 == 0) {
+
+        numOne = "True"
+    }
+    else{
+        numOne = "False"
+    }
+
+    document.getElementById("result-04").innerHTML = `Result = ${numOne}`
+}
+
+
+// Question - 05
+
+function evenOrOdd() {
+    
+    var numOne = document.getElementById("number1-05").value
+
+    if (numOne % 2 == 0) {
+        
+        numOne = "Even"
+    }
+    else{
+        numOne = "Odd"
+    }
+
+    document.getElementById("result-05").innerHTML = `Number = ${numOne}`
+}
+
+
+// Quesiton - 06
+
+function leepYearCheck() {
+    
+    var year = document.getElementById("number1-06").value
+
+    if (year % 4 == 0) {
+
+        if (year % 100 == 0) {
+            
+            if (year % 400 ==0) {
+                
+                year = "True"
+            }
+            else{
+                year = "False"
+            }
+        }
+        else{
+            year = "True"
+        }
+    }
+    else{
+        year = "False"
+    }
+
+    document.getElementById("result-06").innerHTML = `Result = ${year}`
+}
+
+
+
+// Question - 07
+
+
+function checkCharacter() {
+    
+    var character = document.getElementById("character-07").value
+
+    if (character >= "a" && character <= "z" || character >= "A" && character <= "Z") {
+        
+        character = "Alphabet"
+    }
+    else{
+        character = "Not Alphabet"
+    }
+
+    document.getElementById("result-07").innerHTML = `Character = ${character}`
+}
+
+
+// Qoestion - 08
+
+function checkVovel(params) {
+    
+    var character = document.getElementById("character-08").value
+
+    if (character == "a" || character == "e" || character == "i" || character == "o" || character == "u" || character == "A" || character == "E" || character == "I" || character == "O" || character == "U") {
+        character = "Vovel"
+    }
+    else{
+        character = "Constant"
+    }
+
+    document.getElementById("result-08").innerHTML = `Character = ${character}`
+}
+
+
+// Question - 09
+
+function checkIt() {
+    
+    var character = document.getElementById("character-09").value
+
+    if (character >= "a" && character <= "z" || character >= "A" && character <= "Z") {
+        character = "Alphabet"
+    }
+    else if (character >= 0 || character < 0) {
+        character = "Digit"
+    }
+    else{
+        character = "Speacial Character"
+    }
+
+    document.getElementById("result-09").innerHTML = `Character = ${character}`
+}
+
+
+// Question - 10
+
+function UpperOrLower() {
+    
+    var character = document.getElementById("character-10").value
+
+    if (character >= "A" && character <= "Z") {
+        
+        character = "UpperCase"
+    }
+    else if (character >= "a" && character <= "z") {
+        
+        character = "LowerCase"
+    }
+    else{
+        character = "Not An Alphabet"
+    }
+
+
+    document.getElementById("result-10").innerHTML = `Character = ${character}`
+}
+
+
+// Question - 11
+
+
+function weekDay() {
+    
+    var weekNumber = document.getElementById("weekNumber-11").value
+
+    var weekDay
+
+    switch (weekNumber) {
+        case '1':
+            weekDay = "Monday"
+            break;
+
+        case '2':
+            weekDay = "Tuesday"
+            break;
+
+        case '3':
+            weekDay = "Wednesday"
+            break;
+
+        case '4':
+            weekDay = "Thursday"
+            break;
+
+        case '5':
+            weekDay = "Friday"
+            break;
+
+        case '6':
+            weekDay = "Saturday"
+            break;
+
+        case '7':
+            weekDay = "Sunday"
+            break;
+    
+        default:
+            weekDay = "Limit Exceded"
+            break;
+    }
+
+
+    document.getElementById("result-11").innerHTML = `Day = ${weekDay}`
+}
+
+
+// Question - 12
+
+function monthDays(params) {
+    
+    var monthNumber = document.getElementById("monthNumber-12").value
+    var monthDays
+
+    switch (monthNumber) {
+        case '1':
+            monthDays = "Jan - 31"
+            break;
+
+        case '2':
+            monthDays = "Feb - 28"
+            break;
+
+        case '3':
+            monthDays = "Mar - 31"
+            break;
+
+        case '4':
+            monthDays = "Apr - 30"
+            break;
+
+        case '5':
+            monthDays = "May - 31"
+            break;
+
+        case '6':
+            monthDays = "Jun - 30"
+            break;
+
+        case '7':
+            monthDays = "Jul - 31"
+            break;
+
+        case '8':
+            monthDays = "Aug - 31"
+            break;
+
+        case '9':
+            monthDays = "Sep - 30"
+            break;
+
+        case '10':
+            monthDays = "Oct - 31"
+            break;
+
+        case '11':
+            monthDays = "Nov - 30"
+            break;
+
+        case '12':
+            monthDays = "Dec - 31"
+            break;
+
+    
+        default:
+            monthDays = "Limit Exceded"
+            break;
+    }
+
+
+    document.getElementById("result-12").innerHTML = `MonthDays = ${monthDays}`
+}
+
+
+// Question - 13
+
+
+function checkNotes() {
+    
+    var amount = document.getElementById("amount-13").value
+
+    var fiveThousand = 0
+    var thousand = 0
+    var fiveHundred = 0
+    var hundred = 0
+    var fifty = 0
+
+    while (amount >= 50) {
+        
+        if (amount >= 5000) {
+            fiveThousand += 1
+            amount -= 5000
+        }
+        else if (amount >= 1000 && amount < 5000) {
+            thousand += 1
+            amount -= 1000
+        }
+        else if (amount >= 500 && amount < 1000) {
+            fiveHundred += 1
+            amount -= 500
+        }
+        else if (amount >= 100 && amount < 500) {
+            hundred += 1
+            amount -= 100
+        }
+        else if (amount >= 50 && amount < 100) {
+            fifty += 1
+            amount -= 50
+        }
+    }
+
+
+    document.getElementById("fiveThousand").innerHTML = `Five Thousnad = ${fiveThousand}`
+    document.getElementById("thousand").innerHTML = `Thousand = ${thousand}`
+    document.getElementById("fiveHundred").innerHTML = `Five Hundred = ${fiveHundred}`
+    document.getElementById("hundred").innerHTML = `Hundred = ${hundred}`
+    document.getElementById("fifty").innerHTML = `Fifty = ${fifty}`
+
+}

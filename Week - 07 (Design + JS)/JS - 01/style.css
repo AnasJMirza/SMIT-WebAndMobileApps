@@ -1,0 +1,29 @@
+@font-face {
+    font-family: poppins bold;
+    src: url('./assets/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+@font-face {
+    font-family: poppins regular;
+    src: url('./assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+#ques-01, #ques-02, #ques-03, #ques-04, #ques-05, #ques-06, #ques-07, #ques-08, #ques-09, #ques-10, #ques-11, #ques-12, #ques-13{
+    border: 2px solid black;
+    padding: 20px;
+    margin: 20px;
+
+    font-family: poppins;
+}
+
+.number-01, .number-02, .number-03, .number-04, .number-05, .number-06, .character-07, .character-08, .character-09, .character-10, .weekNumber-11, .monthNumber-12, .amount-13{
+    font-size: 15px;
+}
+
+#notes{
+    background-color: black;
+    color: white;
+    width: 18%;
+    text-align: center;
+    padding: 5px;
+}
