@@ -438,7 +438,7 @@ function bill() {
         
         var fiftyUnitsBill = 50 * 0.50
         var oneFiftyUnitsBill = (100 * 0.75) + fiftyUnitsBill
-        var twoFiftyUnitsBill = (100 * 1.20) + twoFiftyUnitsBill
+        var twoFiftyUnitsBill = (100 * 1.20) + oneFiftyUnitsBill
 
         units = units - 250
         basicBill = (units * 1.50) + twoFiftyUnitsBill
