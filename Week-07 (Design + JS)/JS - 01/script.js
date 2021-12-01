@@ -352,3 +352,100 @@ function checkNotes() {
     document.getElementById("fifty").innerHTML = `Fifty = ${fifty}`
 
 }
+
+
+// Question - 14
+
+function yourGrade() {
+    
+    var bioMarks = parseInt(document.getElementById("marksBio-14").value)
+    var phyMarks = parseInt(document.getElementById("marksPhy-14").value)
+    var chemMarks = parseInt(document.getElementById("marksChe-14").value)
+    var mathMarks = parseInt(document.getElementById("marksMath-14").value)
+    var comMarks = parseInt(document.getElementById("marksCom-14").value)
+
+    var totalMarks = bioMarks + phyMarks + chemMarks + mathMarks + comMarks
+
+    var percentage = (totalMarks / 500 * 100)
+
+    var grade = "none"
+
+    if (percentage >= 90 && percentage <= 100) {
+        
+        grade = "A"
+    }
+    else if (percentage >= 80 && percentage < 90) {
+        
+        grade = "B"
+    }
+    else if (percentage >= 70 && percentage < 80) {
+        
+        grade = "C"
+    }
+    else if (percentage >= 60 && percentage < 70) {
+        
+        grade = "D"
+    }
+    else if (percentage >= 40 && percentage < 60) {
+        
+        grade = "E"
+    }
+    else{
+        grade = "F"
+    }
+    
+    document.getElementById("grade").innerHTML = `Grdae = ${grade}`
+    document.getElementById("percentage").innerHTML = `Percentage = ${percentage}`
+}
+
+
+function bill() {
+    
+    var units = parseInt(document.getElementById("units-16").value)
+    var bill = 0
+    var basicBill = 0
+
+    if (units <= 50) {
+        
+        basicBill = units * 0.50
+        surcharge = (20 / 100) * basicBill
+        bill = basicBill + surcharge
+
+    }
+    else if (units > 50 && units <= 150) {
+        
+        var fiftyUnitsBill = 50 * 0.50
+
+        units = units - 50
+        basicBill = (units * 0.75) + fiftyUnitsBill
+        surcharge = (20 / 100) * basicBill
+        bill = basicBill + surcharge
+        
+    }
+
+    else if (units > 150 && units <= 250) {
+        
+        var fiftyUnitsBill = 50 * 0.50
+        var oneFiftyUnitsBill = (100 * 0.75) + fiftyUnitsBill
+
+        units = units - 150
+        basicBill = (units * 1.20) + oneFiftyUnitsBill
+        surcharge = (20 / 100) * basicBill
+        bill = basicBill + surcharge
+
+    }
+    else if (units > 250) {
+        
+        var fiftyUnitsBill = 50 * 0.50
+        var oneFiftyUnitsBill = (100 * 0.75) + fiftyUnitsBill
+        var twoFiftyUnitsBill = (100 * 1.20) + twoFiftyUnitsBill
+
+        units = units - 250
+        basicBill = (units * 1.50) + twoFiftyUnitsBill
+        surcharge = (20 / 100) * basicBill
+        bill = basicBill + surcharge
+
+    }
+
+    document.getElementById("result-16").innerHTML = `TotalBill = ${bill}`
+}
