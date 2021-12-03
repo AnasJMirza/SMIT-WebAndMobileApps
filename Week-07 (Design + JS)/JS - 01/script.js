@@ -399,6 +399,51 @@ function yourGrade() {
 }
 
 
+// Quesion - 15
+
+function grossSalary() {
+    
+    var basicSalary = parseInt(document.getElementById("basicSalary-15").value)
+
+    var HRA
+    var DA
+    var grossSalary
+
+    if (basicSalary >= 0) {
+        
+
+        if (basicSalary <= 10000) {
+     
+            HRA = (20 / 100) * basicSalary
+            DA = (80 / 100) * basicSalary
+            grossSalary = basicSalary + HRA + DA
+             
+            
+        }
+        else if (basicSalary > 10000 && basicSalary <= 20000) {
+            
+            HRA = (25 / 100) * basicSalary
+            DA = (90 / 100) * basicSalary
+            grossSalary = basicSalary + HRA + DA
+    
+        }
+        else{
+    
+            HRA = (30 / 100) * basicSalary
+            DA = (95 / 100) * basicSalary
+            grossSalary = basicSalary + HRA + DA
+    
+        }
+
+    }
+
+    document.getElementById("result-15").innerHTML = `Gross Salary = ${grossSalary}`
+}
+
+
+// Quesion - 16
+
+
 function bill() {
     
     var units = parseInt(document.getElementById("units-16").value)

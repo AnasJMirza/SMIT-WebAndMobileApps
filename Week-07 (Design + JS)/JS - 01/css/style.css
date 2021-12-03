@@ -8,7 +8,7 @@
     src: url('./assets/fonts/Poppins/Poppins-Regular.ttf');
 }
 
-#ques-01, #ques-02, #ques-03, #ques-04, #ques-05, #ques-06, #ques-07, #ques-08, #ques-09, #ques-10, #ques-11, #ques-12, #ques-13, #ques-14, #ques-16{
+#ques-01, #ques-02, #ques-03, #ques-04, #ques-05, #ques-06, #ques-07, #ques-08, #ques-09, #ques-10, #ques-11, #ques-12, #ques-13, #ques-14, #ques-16, #ques-15{
     border: 2px solid black;
     padding: 20px;
     margin: 20px;
@@ -16,7 +16,7 @@
     font-family: poppins;
 }
 
-.number-01, .number-02, .number-03, .number-04, .number-05, .number-06, .character-07, .character-08, .character-09, .character-10, .weekNumber-11, .monthNumber-12, .amount-13, .marks-14, .units-16{
+.number-01, .number-02, .number-03, .number-04, .number-05, .number-06, .character-07, .character-08, .character-09, .character-10, .weekNumber-11, .monthNumber-12, .amount-13, .marks-14, .units-16, .basicSalary-15{
     font-size: 15px;
 }
 
