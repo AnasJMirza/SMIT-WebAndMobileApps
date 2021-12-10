@@ -1,0 +1,189 @@
+@font-face {
+    font-family: poppins medium;
+    src: url('../assets/fonts/Poppins/Poppins-Medium.ttf');
+}
+
+@font-face {
+    font-family: poppins regular;
+    src: url('../assets/fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face {
+    font-family: poppins semi-bold;
+    src: url('../assets/fonts/Poppins/Poppins-SemiBold.ttf');
+}
+
+@font-face {
+    font-family: poppins bold;
+    src: url('../assets/fonts/Poppins/Poppins-Bold.ttf');
+}
+
+.grayBar{
+    background-color: #262626;
+    height: 40px;
+}
+
+.barPara{
+    font-family: poppins regular;
+    color: white;
+    margin-top: 8px;
+
+    
+}
+
+.barPara1{
+    position: relative;
+    left: 50px;
+}
+
+.barPara3{
+    position: relative;
+    right: 30px;
+}
+
+.check{
+    color: #ee9617;
+}
+
+.bg-01{
+    background-image: url('../assets/images/bg1.png');
+    height: 1081px;
+    background-repeat: no-repeat;
+    background-size: 75%;
+}
+
+.nav-link{
+    color: white;
+    font-family: poppins regular;
+}
+
+
+
+.logo{
+    color: white;
+    font-family: poppins medium;
+    font-size: 30px;
+    margin-top: 20px;
+    
+    position: relative;
+    left: 50px;
+}
+
+.navBar{
+    margin-right: 100px;
+    margin-top: 25px;
+    
+}
+
+.navBtn{
+    margin-top: 28px;
+    border-radius: 20px;
+    width: 80%;
+    background-color: #d44800;
+    border: none;
+    
+    position: relative;
+    right: 30px;
+}
+
+.cloud{
+    color: white;
+    font-family: poppins regular;
+    font-size: 9px;
+    margin-top: 100px;
+
+    position: relative;
+    left: 62px;
+}
+
+.beforeHeadPara{
+    color: white;
+    font-family: poppins semi-bold;
+    font-size: 20px;
+
+    position: relative;
+    left: 62px;
+}
+
+.heading-01{
+    color: white;
+    font-family: poppins bold;
+    font-size: 50px;
+
+    position: relative;
+    left: 62px;
+}
+
+.afterHeadPara{
+    color: white;
+    font-family: poppins regular;
+    font-size: 15px;
+
+    position: relative;
+    left: 62px;
+}
+
+.transparent, .fill{
+    color: white;
+    font-family: poppins regular;
+    border: 1px solid white;
+    border-radius: 20px;
+    width: 100%;
+    padding: 5px 15px;
+    
+    position: relative;
+    left: 62px;
+    top: 30px;
+}
+
+.fill{
+    background-color: white;
+    color: #d44800;
+    margin-left: 25px;
+    /* box-shadow: 8px 5px 15px #262626; */
+    box-shadow: 6px 5px 10px rgb(0 0 0 / 0.2);
+}
+
+
+
+
+/* Media Queries */
+
+@media (max-width: 767px){
+    .grayBar{
+        height: 70px;
+        font-size: 10px;
+        line-height: 14px;
+    }
+
+    .barPara1{
+        position: relative;
+        left: 0px;
+    }
+    
+    .barPara3{
+        position: relative;
+        right: 0px;
+    }
+
+    .logo{
+        position: relative;
+        left: 0px;
+        font-size: 15px;
+    }
+
+    .nav-link{
+        display: none;
+        
+        
+    }
+
+    .navBtn{
+        position: relative;
+        left: 35px;
+        width: 60%;
+        font-size: 10px;
+    }
+
+}
+
