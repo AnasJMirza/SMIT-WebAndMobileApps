@@ -4,11 +4,11 @@
 
 <ul>
 
-<li>Html</li>   Done
-<li>Css</li>    Done
-<li>Bootstrap</li>    Done
-<li>Git - Github</li>   Done
-<li>JavaScript</li>   In Progress
+<li>Html - (Done)</li>   
+<li>Css - (Done)</li>    
+<li>Bootstrap - (Done)</li>    
+<li>Git - Github - (Done)</li>   
+<li>JavaScript - (In Progress)</li>   
 <li>React - JS</li>
 <li>ReactNative</li>
 <li>Node - JS</li>
