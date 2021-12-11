@@ -2,13 +2,13 @@
 
 <h3>Tech Stack I am learning in this bootCamp</h3>
 
-<ul
+<ul>
 
-<li>Html</li>  
-<li>Css</li>
-<li>Bootstrap</li>
-<li>Git - Github</li>
-<li>JavaScript</li>
+<li>Html</li>   Done
+<li>Css</li>    Done
+<li>Bootstrap</li>    Done
+<li>Git - Github</li>   Done
+<li>JavaScript</li>   In Progress
 <li>React - JS</li>
 <li>ReactNative</li>
 <li>Node - JS</li>
