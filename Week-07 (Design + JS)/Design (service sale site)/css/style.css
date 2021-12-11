@@ -18,6 +18,44 @@
   src: url("../assets/fonts/Poppins/Poppins-Bold.ttf");
 }
 
+
+
+/* Section - 08 */
+
+
+.sec8{
+    height: 200px;
+    background-color: #fdfdfd;
+    /* background-color: red; */
+}
+
+.sec8Images{
+    width: 50px;
+
+}
+
+.stars{
+    width: 100px;
+
+}
+
+.sec8Para{
+    font-family: poppins medium;
+    font-size: 15px;
+
+}
+
+.sec8All{
+    margin-top: 100px;
+    /* border: 2px solid black; */
+    
+    position: relative;
+    top: 68px;
+}
+
+
+
+
 /* Section - 09 */
 
 .footer {
@@ -55,4 +93,17 @@
   .footerPara {
     font-size: 9px;
   }
+
+  .sec8Para{
+      font-size: 9px;
+  }
+
+  .sec8Images{
+      width : 40px;
+  }
+
+  .stars{
+      width: 70%;
+  }
+
 }
