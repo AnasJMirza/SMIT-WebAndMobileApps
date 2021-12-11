@@ -1,6 +1,6 @@
 <h1>FullStackDevelopment-SMIT  ( Learning )</h1>
 
-<h3>Tech Stack I am learning in this bootCamp</h3>
+<h3>Tech Stack I am learning in this BootCamp : </h3>
 
 <ul>
 
