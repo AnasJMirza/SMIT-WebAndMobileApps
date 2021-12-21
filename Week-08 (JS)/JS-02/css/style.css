@@ -1,16 +1,7 @@
-<<<<<<< HEAD
-*{
-    padding: 5px;
-}
-
-#ques-02, #ques-01{
-    border: 2px solid black;
-=======
 *{
     padding: 5px;
 }
 
 #ques-02, #ques-01, #ques-03, #ques-04{
     border: 2px solid black;
->>>>>>> 15da44f (4 Questions Completed)
 }
