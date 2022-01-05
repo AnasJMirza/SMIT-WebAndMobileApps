@@ -1,7 +1,8 @@
 *{
     padding: 5px;
+    margin: 5px;
 }
 
-#ques-02, #ques-01, #ques-03, #ques-04{
+#ques-02, #ques-01, #ques-03, #ques-04, #ques-03, #ques-05{
     border: 2px solid black;
 }

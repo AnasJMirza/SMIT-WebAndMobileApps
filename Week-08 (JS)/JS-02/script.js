@@ -138,7 +138,7 @@ monthName("11/13/2014");
 
 // ----------------------------------------------------------------------------------------
 
-// Q - 4 : Write a JavaScript function to compare dates (i.e. greater than, less than or equal to).   
+// Q - 5 : Write a JavaScript function to compare dates (i.e. greater than, less than or equal to).   
 
 // Test Data :
 // console.log(compare_dates(new Date('11/14/2013 00:00'), new Date('11/14/2013 00:00')));
@@ -150,6 +150,74 @@ monthName("11/13/2014");
 // "Date2 > Date1"
 
 
+console.log("Question No - 05");
+
+var compareDate = (date1, date2) => {
+    var day1 = date1.getDay();
+    var month1 = date1.getMonth();
+    var year1 = date1.getFullYear();
+    var time1 = date1.getTime();
+    
+
+    var day2 = date2.getDay();
+    var month2 = date2.getMonth();
+    var year2 = date2.getFullYear();
+    var time2 = date2.getTime();
+
+    if (day1 === day2) {
+        if (month1 === month2) {
+            if (year1 === year2) {
+                if (time1 === time2) {
+                    console.log("Date is Same");
+                }
+                else if (time1 > time2){
+                    console.log("Date one is greater");
+                }
+                else{
+                    console.log("Date Two is greater");
+                }
+            }
+            else if (year1 > year2){
+                console.log("Date one is greater");
+            }
+            else{
+                console.log("Date Two is greater");
+            }
+        }
+        else if (month1 > month2){
+            console.log("Date one is greater");
+        }
+        else{
+            console.log("Date Two is greater");
+        }
+    }
+    else if (day1 > day2){
+        console.log("Date one is greater");
+    }
+    else{
+        console.log("Date Two is greater");
+    }
+
+}
+compareDate(new Date('11/14/2013 00:00'), new Date('11/14/2013 00:00'));
+compareDate(new Date('11/14/2013 00:01'), new Date('11/14/2013 00:00'));
+compareDate(new Date('11/14/2013 00:00'), new Date('11/14/2013 00:01'));
+
+
+// Q - 06 : Write a JavaScript function to add specified minutes to a Date object.   
+
+// Test Data :
+// console.log(add_minutes(new Date(2014,10,2), 30).toString());
+// Output :
+// "Sun Nov 02 2014 00:30:00 GMT+0530 (India Standard Time)"
+
+var addMin = (date, min) => {
+    var time = date.getTime();
+    console.log(new Date(time + min * 60000));
+    
+}
+
+addMin(new Date(2014, 10, 2), 30);
 
 
 
