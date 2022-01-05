@@ -262,11 +262,25 @@ console.log(isWeekEnd('Nov 17, 2014'));
 
 
 var dateDiffInDays = (date1, date2) => {
-    var date = new Date(date1);
-    console.log(date);
+    var date1 = new Date(date1);
+    var date2 = new Date(date2);
+
+    if (date1.getTime() > date2.getTime()) {
+        var diffInTime = date1.getTime() - date2.getTime();
+        var diffInDays = diffInTime / (1000 * 60 * 60 * 24);
+    }
+    else{
+        var diffInTime = date2.getTime() - date1.getTime();
+    var diffInDays = diffInTime / (1000 * 60 * 60 * 24);
+    }
+
+    return diffInDays
+
 }
 
-dateDiffInDays('04/02/2014', '11/04/2014');
+console.log(dateDiffInDays('04/02/2014', '11/04/2014'));
+console.log(dateDiffInDays('12/02/2014', '11/04/2014'));
+console.log(dateDiffInDays('06/30/2019', '07/30/2019'));
 
 
 
