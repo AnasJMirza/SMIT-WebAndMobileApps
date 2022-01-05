@@ -220,6 +220,38 @@ var addMin = (date, min) => {
 addMin(new Date(2014, 10, 2), 30);
 
 
+// Q - 07 : Write a JavaScript function to test whether a date is a weekend.   
+
+// Note : Use standard Saturday/Sunday definition of a weekend.
+// Test Data :
+// console.log(is_weekend('Nov 15, 2014'));
+// console.log(is_weekend('Nov 16, 2014'));
+// console.log(is_weekend('Nov 17, 2014'));
+// Output :
+// "weekend"
+// "weekend"
+// undefined
+
+console.log("Question No 08");
+
+var isWeekEnd = (date) => {
+    var arr = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]
+    var date = new Date(date);
+    var day = date.getDay();
+
+    if (day === 0 || day === 6) {
+        return "WeekEnd"
+    }
+    else{
+        return "Non-WeekEnd"
+    }
+}
+console.log(isWeekEnd('Nov 15, 2014'));
+console.log(isWeekEnd('Nov 16, 2014'));
+console.log(isWeekEnd('Nov 17, 2014'));
+
+
+
 
 
 
