@@ -29,8 +29,8 @@ nav {
 
 .line{
   position: absolute;
-  left: 63.5%;
-  top: 23%;
+  left: 64%;
+  top: 22.4%;
 
   width: 6%;
   background-color: #000000;
@@ -285,14 +285,14 @@ nav {
   /* border: 2px solid salmon; */
   width: 100%;
   position: absolute;
-  top: 845%;
+  top: 1072%;
 }
 
 .footerLogo {
 
   /* border: 2px solid salmon; */
   position: absolute;
-  top: 865%;
+  top: 1090%;
   left: 38%;
 }
 
@@ -303,7 +303,7 @@ nav {
   width: 488px;
   height: 71px;
   left: 31%;
-  top: 879%;
+  top: 1105%;
 
   font-family: New York Small;
   font-style: normal;
@@ -320,7 +320,7 @@ nav {
 .link {
   position: absolute;
   left: 41%;
-  top: 895%;
+  top: 1120%;
 }
 
 .a {
@@ -335,7 +335,7 @@ nav {
   width: 178px;
   height: 34px;
   left: 42%;
-  top: 908%;
+  top: 1135%;
 
   font-family: SF Pro Text;
   font-style: normal;

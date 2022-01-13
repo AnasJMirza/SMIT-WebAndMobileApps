@@ -1,0 +1,18 @@
+[debug] [2022-01-13T12:43:24.476Z] ----------------------------------------------------------------------
+[debug] [2022-01-13T12:43:24.479Z] Command:       D:\Installed\node\node.exe C:\Users\anas\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js login
+[debug] [2022-01-13T12:43:24.479Z] CLI Version:   10.1.0
+[debug] [2022-01-13T12:43:24.479Z] Platform:      win32
+[debug] [2022-01-13T12:43:24.479Z] Node Version:  v14.17.6
+[debug] [2022-01-13T12:43:24.481Z] Time:          Thu Jan 13 2022 17:43:24 GMT+0500 (Pakistan Standard Time)
+[debug] [2022-01-13T12:43:24.481Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2022-01-13T12:43:24.483Z] >>> [apiv2][query] GET https://firebase-public.firebaseio.com/cli.json [none]
+[info] i  Firebase optionally collects CLI usage and error reporting information to help improve our products. Data is collected in accordance with Google's privacy policy (https://policies.google.com/privacy) and is not used to identify you.
+ 
+[debug] [2022-01-13T12:43:26.331Z] <<< [apiv2][status] GET https://firebase-public.firebaseio.com/cli.json 200
+[debug] [2022-01-13T12:43:26.332Z] <<< [apiv2][body] GET https://firebase-public.firebaseio.com/cli.json {"cloudBuildErrorAfter":1594252800000,"cloudBuildWarnAfter":1590019200000,"defaultNode10After":1594252800000,"minVersion":"3.0.5","node8DeploysDisabledAfter":1613390400000,"node8RuntimeDisabledAfter":1615809600000,"node8WarnAfter":1600128000000}
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://accounts.google.com/o/oauth2/auth?client_id=563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com&scope=email%20openid%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloudplatformprojects.readonly%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Ffirebase%20https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fcloud-platform&response_type=code&state=825449677&redirect_uri=http%3A%2F%2Flocalhost%3A9005
+[info] 
+[info] Waiting for authentication...
