@@ -13,6 +13,9 @@ import HeaderPara from './components/headerPara/HeaderPara';
 import HeaderPrimaryPic from './components/headerPrimaryPic/HeaderPrimaryPic';
 import HeaderAddressSec from './components/headerAddressSec/HeaderAddressSec';
 import HeaderSecendoryPic from './components/headerSecendoryPic/HeaderSecendoryPic';
+import HeaderSponsers from './components/headerSponsers/HeaderSponsers';
+import HeadingSection01 from './components/headingSection01/HeadingSection01';
+import IconsSection01 from './components/iconsSection01/IconsSection01';
 
 
 function App() {
@@ -70,8 +73,40 @@ function App() {
 
         </div>
 
+        <br/>
+        <br/>
+        <br/>
+        <br/>
+
+        <div className='row'>
+            
+            <HeaderSponsers/>
+          
+        </div>
+
       </div>
 
+
+      {/* Header Section Completed */}
+
+      {/* Section One Starts Here */}
+
+      <div className='container'>
+        <div className='row'>
+          <div className='col-md-12 headingSection01'>
+            <HeadingSection01/>
+          </div>
+        </div>
+
+        <div className='row'>
+
+          <div className='col-md-12'>
+            <IconsSection01/>
+          </div>
+
+        </div>
+
+      </div>
       
       <br/>
     <br/>

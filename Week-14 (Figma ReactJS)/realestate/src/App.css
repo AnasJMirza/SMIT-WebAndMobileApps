@@ -14,10 +14,17 @@ body{
 
 .secendoryPicPosition{
     position: relative;
-    top: 300px;
+    top: 330px;
     right: 45px;
 }
 
-.specificBtn{
-  box-shadow: 0px 8px 30px 0px rgba(70, 146, 234, 0.18);
+.sponsers{
+  /* margin-top: 100px; */
+  /* width: 200px; */
+  border: 2px solid black;
 }
+
+.headingSection01{
+  margin-top: 100px;
+}
+
