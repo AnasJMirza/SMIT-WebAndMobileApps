@@ -1,0 +1,67 @@
+@font-face {
+    font-family: inter;
+    src: url('../../assets/fonts/Inter/static/Inter-Regular.ttf');
+}
+
+.secendoryPicComponent{
+    box-shadow: 20px 20px 60px 0px rgba(143, 160, 180, 0.1);
+    /* border: 2px solid yellowgreen; */
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    width: 130%;
+}
+
+.homeSmallPic{
+    width: 100%;
+}
+
+.secendoryPicPrice{
+    font-family: inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(34, 137, 255, 1);
+    margin-top: 10px;
+}
+
+.secendoryPicLocation{
+
+    font-family: inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(15, 43, 74, 1);
+}
+
+.secendoryPicNumaric{
+    color: rgba(87, 107, 129, 1);
+    font-family: inter;
+}
+
+
+.secendoryFlex{
+    margin-left: 5px;
+}
+
+.bedBath{
+    width: 22%;
+}
+
+.secedoryPicAddress{
+    font-family: inter;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(87, 107, 129, 1);
+
+}
