@@ -1,15 +1,16 @@
-# FullStackDevelopment-SMIT  ( Learning )
+# FullStackDevelopment-SMIT  ( Learning ) 🔥
+This repositery consist of all the assignments given in this boot-camp.
 
 ## Tech Stack I am learning in this BootCamp : 
 
 <ul>
 
-<li>Html - (Done)</li>   
-<li>Css - (Done)</li>    
-<li>Bootstrap - (Done)</li>    
-<li>Git - Github - (Done)</li>   
-<li>JavaScript - (Done)</li>   
-<li>React-JS - (In Progress)</li>
+<li>Html - ✅</li>   
+<li>Css - ✅</li>    
+<li>Bootstrap - ✅</li>    
+<li>Git - Github - ✅</li>   
+<li>JavaScript - ✅</li>   
+<li>React-JS - ⏰</li>
 <li>ReactNative</li>
 <li>Node - JS</li>
 <li>FireBase</li>
