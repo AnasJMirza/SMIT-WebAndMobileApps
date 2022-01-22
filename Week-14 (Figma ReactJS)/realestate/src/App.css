@@ -28,3 +28,9 @@ body{
   margin-top: 100px;
 }
 
+
+.sec02Flex{
+  display: flex;
+  justify-content: flex-end;
+}
+

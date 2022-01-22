@@ -1,7 +1,9 @@
 import './App.css';
 // importing bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css'
-// importing NavBar componenet
+
+// importing custom componenets
+
 import NavBar from './components/navBar/NavBar.js';
 
 import Logo from './components/logo/Logo.js';
@@ -9,13 +11,25 @@ import Logo from './components/logo/Logo.js';
 import Button from './components/button/Button';
 
 import HeaderHeading from './components/headerHeading/HeaderHeading';
+
 import HeaderPara from './components/headerPara/HeaderPara';
+
 import HeaderPrimaryPic from './components/headerPrimaryPic/HeaderPrimaryPic';
+
 import HeaderAddressSec from './components/headerAddressSec/HeaderAddressSec';
+
 import HeaderSecendoryPic from './components/headerSecendoryPic/HeaderSecendoryPic';
+
 import HeaderSponsers from './components/headerSponsers/HeaderSponsers';
+
 import HeadingSection01 from './components/headingSection01/HeadingSection01';
+
 import IconsSection01 from './components/iconsSection01/IconsSection01';
+
+import HeadingSec02 from './components/headingSec02/HeadingSec02';
+
+import ParaSec02 from './components/paraSec02/ParaSec02';
+
 
 
 function App() {
@@ -89,7 +103,7 @@ function App() {
 
       {/* Header Section Completed */}
 
-      {/* Section One Starts Here */}
+      {/* Section - 01 Starts Here */}
 
       <div className='container'>
         <div className='row'>
@@ -107,11 +121,49 @@ function App() {
         </div>
 
       </div>
-      
-      <br/>
-    <br/>
-    <br/>
+
+      {/* Section - 01 Completed Here */}
+
+
+      {/* Section - 02 starts here */}
+
+      <div className='container'>
+        <div className='row'>
+
+          <div className='col-md-6'>
+            <HeadingSec02/>
+          </div>
+
+          <div className='col-md-4'>
+            <div className='sec02Flex'>
+              <Button/>
+            </div>
+          </div>
+
+
+          <div className='col-md-2 '>
+            <div className='sec02Flex'>
+              <Button/>
+            </div>
+          </div>
+
+        </div>
+
+        <div className='row'>
+
+          <div className='col-md-12'>
+            <ParaSec02/>
+          </div>
+
+        </div>
+      </div>
+
+
+      {/* Section - 02 Ends Here here */}
+    
     </div>
+
+    
 
     
   );
