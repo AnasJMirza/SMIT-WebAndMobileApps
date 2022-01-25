@@ -29,6 +29,7 @@ import IconsSection01 from './components/iconsSection01/IconsSection01';
 import HeadingSec02 from './components/headingSec02/HeadingSec02';
 
 import ParaSec02 from './components/paraSec02/ParaSec02';
+import SelectedSec02 from './components/selectedSec02/SelectedSec02';
 
 
 
@@ -128,6 +129,9 @@ function App() {
       {/* Section - 02 starts here */}
 
       <div className='container'>
+
+        {/* 1st row */}
+
         <div className='row'>
 
           <div className='col-md-6'>
@@ -149,18 +153,41 @@ function App() {
 
         </div>
 
+        {/* 2nd row */}
+
         <div className='row'>
 
-          <div className='col-md-12'>
+          <div className='col-md-5'>
             <ParaSec02/>
           </div>
 
+          <div className='col-md-7'></div>
+
         </div>
+
+        {/* 3rd row */}
+
+        <div className='row'>
+          <div className='col-md-6'>
+            <SelectedSec02/>
+          </div>
+        </div>
+
       </div>
 
 
       {/* Section - 02 Ends Here here */}
     
+
+
+
+
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
     </div>
 
     
