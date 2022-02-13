@@ -55,8 +55,8 @@ function App() {
 
           <div className='col-md-3'>
             <div className='headerButton'>
-              <Button/>
-              <Button/>
+              <Button title="Sigin" backgroundColor="white" color="red" />
+              <Button title="Signup" />
             </div>
           </div>
           
@@ -140,14 +140,14 @@ function App() {
 
           <div className='col-md-4'>
             <div className='sec02Flex'>
-              <Button/>
+              <Button title="Property Type" />
             </div>
           </div>
 
 
           <div className='col-md-2 '>
             <div className='sec02Flex'>
-              <Button/>
+              <Button title="See All Property" />
             </div>
           </div>
 

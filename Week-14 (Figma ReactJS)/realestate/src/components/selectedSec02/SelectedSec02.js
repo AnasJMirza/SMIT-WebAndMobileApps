@@ -3,6 +3,7 @@ import './SelectedSec02.css'
 import sec02img from '../../assets/images/sec02img.png'
 import bed2 from '../../assets/images/bed2.png'
 import bath2 from '../../assets/images/bath2.png'
+import Button from '../button/Button';
 
 const SelectedSec02 = () => {
     return (
@@ -30,7 +31,7 @@ const SelectedSec02 = () => {
                                     </span>
                                     
                                     <div className='btnMarginSec02'>
-                                        <button className='btn btn-primary btnSec02'>View Details</button>
+                                        <Button title="View Details" />
                                     </div>
                                 </div>
 

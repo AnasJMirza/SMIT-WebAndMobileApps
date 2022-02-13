@@ -2,10 +2,10 @@ import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './Button.css'   
 
-const Button = () => {
+const Button = (props) => {
     return (
         <span>
-            <button className='btn btn-primary'>Sign up</button>
+            <button  style={{backgroundColor:props.backgroundColor, color:props.color}} className='btn btn-primary'>{props.title}</button>
         </span>
     );
 };
