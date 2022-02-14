@@ -2,7 +2,7 @@ import React from 'react';
 import Button from '../button/Button';
 import './HeaderAddressSec.css'
 
-const HeaderAddressSec = () => {
+const HeaderAddressSec = (props) => {
     return (
         <div className='backgroundColor'>
             <div className='container-fluid padding'>
@@ -16,7 +16,7 @@ const HeaderAddressSec = () => {
                     
                     </div>
                     <div className='col-md-4'>
-                        <Button title="Search" />
+                        <Button title={props.title} />
                     </div>
                 </div>
             </div>

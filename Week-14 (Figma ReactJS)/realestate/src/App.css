@@ -16,6 +16,7 @@ body{
     position: relative;
     top: 330px;
     right: 45px;
+    
 }
 
 .sponsers{
@@ -32,5 +33,9 @@ body{
 .sec02Flex{
   display: flex;
   justify-content: flex-end;
+}
+
+.sec2Margin{
+  margin-top: 200px;
 }
 

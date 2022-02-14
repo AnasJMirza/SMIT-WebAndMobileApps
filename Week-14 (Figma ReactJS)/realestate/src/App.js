@@ -34,6 +34,15 @@ import SelectedSec02 from './components/selectedSec02/SelectedSec02';
 
 
 function App() {
+
+  // Header button props
+
+  let headerBtnData = {
+    "backgroundColor" : "white",
+    "color" : "#0275d8"
+  }
+
+
   return (
     <div className='parent'> 
 
@@ -55,8 +64,8 @@ function App() {
 
           <div className='col-md-3'>
             <div className='headerButton'>
-              <Button title="Sigin" backgroundColor="white" color="red" />
-              <Button title="Signup" />
+              <Button   title = "Signin" backgroundColor="white" color="#0275d8"  />
+              <Button   title = "Signup" />
             </div>
           </div>
           
@@ -73,7 +82,7 @@ function App() {
               <HeaderHeading/>
             </div>
             <HeaderPara/>
-            <HeaderAddressSec/>
+            <HeaderAddressSec title="Search" />
           </div>
 
           <div className='col-md-4'>
@@ -128,7 +137,7 @@ function App() {
 
       {/* Section - 02 starts here */}
 
-      <div className='container'>
+      <div className='container sec2Margin'>
 
         {/* 1st row */}
 
@@ -140,14 +149,14 @@ function App() {
 
           <div className='col-md-4'>
             <div className='sec02Flex'>
-              <Button title="Property Type" />
+              <Button title="Property type ▼" width="10em" color="rgba(87, 107, 129, 1)" backgroundColor="white" border="0.5px solid rgba(87, 107, 129, 1)" />
             </div>
           </div>
 
 
           <div className='col-md-2 '>
             <div className='sec02Flex'>
-              <Button title="See All Property" />
+              <Button title="See All Property" width="10em"  />
             </div>
           </div>
 
@@ -168,6 +177,21 @@ function App() {
         {/* 3rd row */}
 
         <div className='row'>
+          <div className='col-md-6'>
+            <SelectedSec02/>
+          </div>
+
+          <div className='col-md-6'>
+            <SelectedSec02/>
+          </div>
+        </div>
+
+
+        <div className='row'>
+          <div className='col-md-6'>
+            <SelectedSec02/>
+          </div>
+
           <div className='col-md-6'>
             <SelectedSec02/>
           </div>

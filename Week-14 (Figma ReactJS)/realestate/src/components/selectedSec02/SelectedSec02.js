@@ -31,7 +31,7 @@ const SelectedSec02 = () => {
                                     </span>
                                     
                                     <div className='btnMarginSec02'>
-                                        <Button title="View Details" />
+                                        <Button title="View Details" width="8em" fontSize="12px"/>
                                     </div>
                                 </div>
 
