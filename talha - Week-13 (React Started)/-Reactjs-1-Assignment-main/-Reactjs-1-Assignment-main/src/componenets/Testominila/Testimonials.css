@@ -1,0 +1,50 @@
+.test_main
+{
+    width: 1325px;
+height: 870px;
+background: #F9FBFE;
+}
+
+
+.test_para1
+{
+
+width: 360px;
+height: 58px;
+text-align: center;
+
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+margin-left: -12%;
+margin-top: 25%;
+
+/* text-align: center; */
+
+color: #0F2B4A; 
+ }
+
+.test_para2
+ {
+     
+
+width: 512px;
+height: 19px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+text-align: right;
+margin-left: -25%;
+color: #576B81;
+
+ }

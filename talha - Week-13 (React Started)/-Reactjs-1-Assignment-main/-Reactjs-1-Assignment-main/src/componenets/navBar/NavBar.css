@@ -1,0 +1,37 @@
+
+/* @font-face {
+    font-family: talha;
+    src: url();
+} */
+    
+/* .nav-link{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+} */
+.navvbar
+{
+    margin-top: 8%;
+    color: black;
+    
+    /* font-size: 266px; */
+    /* font-weight: 600; */
+    margin-right: -200px;
+    
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: 19px;
+letter-spacing: 0em;
+text-align: left;
+
+}
+
+ul li a{
+    margin-left:10px;
+    color: black;
+}
+/* a :hover
+{
+    cursor: pointer;
+} */

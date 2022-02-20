@@ -1,0 +1,144 @@
+.cardf5
+{
+    
+
+width: 546px;
+height: 244px;
+
+background: #FFFFFF;
+border: 1px solid #EFEFEF;
+box-sizing: border-box;
+border-radius: 6px;
+}
+.card_row_f5 .img_cardf5
+{
+    width: 216px;
+height: 216px;
+
+margin-top:6%;
+border-radius: 6px;
+}
+.card_row_f5 .card_stn2_f5
+{
+    width:216px;
+    height:196px;
+}
+.f5_dollar
+{
+    
+
+width: 119px;
+height: 29px;
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #2289FF;
+margin-top: 13%;
+}
+
+.f5_beach
+{
+   
+width: 221px;
+height: 27px;
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 22px;
+line-height: 27px;
+/* identical to box height */
+
+
+color: #0F2B4A;
+
+margin-top: 7%;
+}
+
+.f5_highlight
+{
+    
+width: 226px;
+height: 19px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #576B81;
+
+}
+.f5_bedbath
+{
+    
+width: 37px;
+height: 14px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #576B81;
+
+
+}
+.bathT
+{
+    margin-left: 22%;
+}
+
+.btn_f5
+{
+    
+width: 84px;
+height: 30px;
+
+
+border: 1px solid #2289FF;
+box-sizing: border-box;
+border-radius: 6px;
+
+margin-top: 10%;
+}
+.f5_btn_text
+{
+    
+width: 55px;
+height: 12px;
+
+/* outline: none; */
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2289FF;
+}
+
+.unfilled_f5
+{
+    margin-top: 5%;
+}

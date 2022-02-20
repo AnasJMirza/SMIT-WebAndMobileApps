@@ -1,0 +1,31 @@
+
+h4{
+    width: 56px;
+    height: 17px;
+    
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    /* identical to box height */
+    
+    
+    color: #0F2B4A;
+}
+.addresss p{
+    
+width: 119px;
+height: 15px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+
+color: #576B81;
+}

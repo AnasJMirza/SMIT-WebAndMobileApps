@@ -1,0 +1,104 @@
+.blue_div
+{
+    width: 1349px;
+    height: 360px;
+
+    background: #0F2A47;
+    
+}
+
+.blue_heading
+{
+    
+width: 508px;
+height: 58px;
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+
+
+text-align: center;
+
+color: #FFFFFF;
+
+}
+.blue_para1
+{
+   
+width: 456px;
+height: 56px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 28px;
+/* or 156% */
+
+
+color: #B6BEC8;
+
+}
+.blue_para2
+{
+    
+width: 259px;
+height: 19px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 19px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+}
+
+input{
+    width: 366px;
+height: 56px;
+
+
+background: #FFFFFF;
+border-radius: 6px;
+}
+::placeholder{
+    
+    width: 110px;
+    height: 16px;
+    
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16px;
+    
+    color: #0F2A47;
+    
+    opacity: 0.3;
+}
+
+
+
+.search_img
+{
+    position: absolute;
+    /* display: inline; */
+
+    width: 68px;
+    height: 56px;
+    margin-left: -68px;
+
+}
+
+.same_clas
+{
+    margin-top: 9%;
+}

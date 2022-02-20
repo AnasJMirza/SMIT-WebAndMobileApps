@@ -1,0 +1,33 @@
+.udcard .trend{
+    
+width: 498px;
+height: 124px;
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 62px;
+/* or 129% */
+
+
+color: #0F2B4A;
+}
+
+.udcard .trend_para
+{
+   
+width: 437px;
+height: 52px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+
+color: #576B81;
+}

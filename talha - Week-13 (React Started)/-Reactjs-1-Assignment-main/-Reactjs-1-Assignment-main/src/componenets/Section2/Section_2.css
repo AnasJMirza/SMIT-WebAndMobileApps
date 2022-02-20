@@ -1,0 +1,18 @@
+.section2_div p
+{
+    
+width: 670px;
+height: 58px;
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 48px;
+line-height: 58px;
+/* identical to box height */
+
+text-align: center;
+
+color: #0F2B4A;
+}

@@ -1,0 +1,146 @@
+.cardf7
+{
+    
+
+width: 546px;
+height: 244px;
+
+background: #FFFFFF;
+border: 1px solid #EFEFEF;
+box-sizing: border-box;
+border-radius: 6px;
+}
+.card_row_f7 .img_cardf7
+{
+    width: 216px;
+height: 216px;
+
+margin-top:6%;
+border-radius: 6px;
+}
+.card_row_f7 .card_stn2_f7
+{
+    width: 216px;
+height: 196px;
+}
+.f7_dollar
+{
+    
+
+    width: 120px;
+    height: 29px;
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    /* identical to box height */
+    
+    letter-spacing: 0.02em;
+    
+    color: #2289FF;
+
+margin-top: 13%;
+}
+
+.f7_villa
+{
+   
+    
+    width: 209px;
+    height: 27px;
+    
+    
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    /* identical to box height */
+    
+    color: #0F2B4A;
+
+margin-top: 7%;
+}
+
+.f7_st
+{
+    
+    
+    width: 195px;
+    height: 19px;
+    
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    
+    
+    color: #576B81;
+    
+
+}
+.f7_bedbath
+{
+    
+width: 37px;
+height: 14px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 14px;
+/* identical to box height */
+
+
+color: #576B81;
+
+
+}
+.bathT7
+{
+    margin-left: 22%;
+}
+
+.btn_f7
+{
+    
+width: 84px;
+height: 30px;
+
+
+border: 1px solid #2289FF;
+box-sizing: border-box;
+border-radius: 6px;
+
+margin-top: 10%;
+}
+.f7_btn_text
+{
+    
+width: 55px;
+height: 12px;
+
+/* outline: none; */
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 12px;
+/* identical to box height */
+
+text-align: center;
+
+color: #2289FF;
+}
+
+.unfilled_f7
+{
+    margin-top: 5%;
+}

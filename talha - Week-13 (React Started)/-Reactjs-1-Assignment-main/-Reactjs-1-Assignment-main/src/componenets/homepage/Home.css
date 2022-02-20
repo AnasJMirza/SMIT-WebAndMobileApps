@@ -1,0 +1,33 @@
+.main_head h2{
+    
+    width: 585px;
+    height: 258px;
+   
+    font-family: Inter;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 70px;
+    line-height: 86px;
+    /* or 123% */
+    
+    
+    color: #0F2B4A;
+}
+
+.main_head p
+{
+
+width: 489px;
+height: 60px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 30px;
+/* or 167% */
+margin-top: 20px;
+
+color: #576B81;
+}

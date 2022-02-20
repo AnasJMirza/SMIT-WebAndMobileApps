@@ -1,0 +1,41 @@
+.same_for_all
+{
+    
+width: 170px;
+height: 24px;
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #0F2B4A;
+
+
+}
+.same_for_all_para 
+{
+    
+width: 166px;
+height: 128px;
+
+
+/* background-color: blue; */
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+/* line-height: 32px; */
+/* or 200% */
+
+margin-top: 15%;
+color: #576B81;
+}
+
+/* .diiv
+{
+    margin-left: -2%;
+} */

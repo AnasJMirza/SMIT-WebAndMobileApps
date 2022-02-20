@@ -1,0 +1,37 @@
+.img_row
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img_row .img_1
+{
+    width: 91px;
+height: 52px;
+/* margin-right:20px ; */
+}
+.img_row .img_2
+{
+    width: 186px;
+height: 58px;
+/* margin-right:20px ; */
+}
+.img_row .img_3
+{
+    width: 100px;
+height: 52px;
+}
+.img_row .img_4
+{
+    width: 103px;
+height: 51px;
+}
+.img_row .img_5
+{
+    width: 147px;
+height: 60px;
+}
+.img_row img
+{
+    margin-left: 110px;
+}

@@ -1,0 +1,58 @@
+.card003
+{
+    width: 372px;
+height: 382px;
+background-color: rgb(192, 198, 209);
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card003 img
+{
+    width: 87px;
+height: 97px;
+
+margin-left: 35%; 
+ margin-top: 15%;
+}
+
+
+.card003 .card003p
+{
+   
+width: 243px;
+height: 31px;
+
+
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 26px;
+line-height: 31px;
+text-align: center;
+
+color: #0F2B4A;
+
+margin-top: 15%;
+margin-left: 18%;
+}
+.card003 .card003p2
+{
+    
+width: 259px;
+height: 78px;
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+/* or 162% */
+
+text-align: center;
+
+color: #576B81;
+
+
+margin-left: 17%;
+}
