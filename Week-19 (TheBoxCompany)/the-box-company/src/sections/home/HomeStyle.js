@@ -1,3 +1,4 @@
+import { padding } from "@mui/system";
 
 
 const style = {
@@ -18,6 +19,71 @@ const style = {
         lineHeight: '84px',
         color: '#292E3D',
         marginLeft : '95px',
+    },
+
+    FP : {
+        backgroundColor : '#3559C7',
+        height : '150px',
+        width : '416px',
+
+        display : 'flex',
+        flexDirection : 'column',
+        justifyContent : 'space-around',
+        alignItems : 'center',
+    },
+
+    FPHeading : {
+        fontFamily: 'poppins',
+        fontStyle: 'normal',
+        fontWeight: 'bold',
+        fontSize: '20px',
+        lineHeight: '23px',
+        textAlign: 'center',
+        color : 'white',
+    },
+
+    FPDescription : {
+        fontFamily: 'poppins',
+        fontStyle: 'normal',
+        fontWeight: 'normal',
+        fontSize: '24px',
+        lineHeight: '28px',
+        textAlign: 'center',
+
+        /* Neutral/White */
+
+        color: '#FFFFFF',
+    },
+
+    FPButton : {
+        width : '416px',
+        height : '40px',
+        display : 'flex',
+        justifyContent : 'space-around',
+        alignItems : 'center',
+        backgroundColor : '#292E3D',
+        fontFamily : 'poppins',
+        color : 'white',
+        // border : '1px solid black'
+    },
+
+    FPPosition : {
+        position : 'absolute',
+        top : '70vh',
+        right : '0px',
+    },
+
+    FPIcon : {
+        display : 'flex',
+        alignItems : 'center',
+        justifyContent : 'space-around',
+        width : '100px',
+    },
+
+    FPLine : {
+        height : '40px',
+        backgroundColor : 'white',
+        width : '1px',
     }
 
 }
