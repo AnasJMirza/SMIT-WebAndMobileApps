@@ -2,6 +2,8 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './sections/home/Home';
 import Reputation from './sections/reputation/Reputation';
+import AboutUs from './sections/aboutUs/AboutUs';
+import Services from './sections/services/Services';
 
 function App() {
   return (
@@ -9,6 +11,10 @@ function App() {
       <Home/>
 
       <Reputation/>
+
+      <AboutUs/>
+
+      <Services/>
 
       <br/>
       <br/>
