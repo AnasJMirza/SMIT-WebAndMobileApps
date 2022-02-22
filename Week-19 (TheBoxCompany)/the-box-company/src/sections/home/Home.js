@@ -14,8 +14,10 @@ const Home = () => {
 
             <div style={style.background}>
                 <Grid container alignItems={"center"} height="90vh">
-                    <Grid itme  md={6} lg={6}>
-                        <p style={style.heading}>Building things is our mission.</p>    
+                    <Grid itme  md={6} lg={6} xs={12}>
+                        <p style={style.heading}>
+                            Building things is our mission.
+                        </p>    
                     </Grid>
                     
                     <Grid item md={6} lg={6}>
@@ -30,11 +32,11 @@ const Home = () => {
                             <div style={style.FPButton}>
                                 <div style={style.FPIcon}>
                                     <WestIcon  />
-                                    <span  >Back  </span>
+                                    <span>Back</span>
                                 </div>
 
                                 <div style={style.FPLine}>
-                                    
+                                    {/* Line between Button */}
                                 </div>
 
                                 <div style={style.FPIcon} >
@@ -51,12 +53,7 @@ const Home = () => {
 
 
             {/* Main Home Section Ends Here */}
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
-            <br/>
+            
         </div>
     );
 };

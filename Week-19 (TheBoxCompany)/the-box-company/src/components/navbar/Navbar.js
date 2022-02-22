@@ -18,7 +18,7 @@ const Navbar = () => {
                     <li style={style.navMargin}>About Us</li>
                     <li style={style.navMargin}>Projects</li>
                     <li style={style.navMargin} >Services</li>
-                    <li style={style.navMargin} >Contact Us</li>
+                    <li style={style.navMargin} >  <li style={style.contact}>Contact Us</li> </li>
                 </div>
 
             </div>

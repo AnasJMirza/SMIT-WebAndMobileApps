@@ -64,6 +64,7 @@ const style = {
         backgroundColor : '#292E3D',
         fontFamily : 'poppins',
         color : 'white',
+        cursor : 'pointer',
         // border : '1px solid black'
     },
 

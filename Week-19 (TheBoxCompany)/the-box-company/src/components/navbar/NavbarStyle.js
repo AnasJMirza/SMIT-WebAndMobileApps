@@ -28,6 +28,18 @@ const style = {
         marginRight : '30px',
         fontFamily : 'poppins',
         cursor : 'pointer',
+        fontStyle: 'normal',
+        fontWeight: 'normal',
+        fontSize: '18px',
+        lineHeight: '21px',
+
+        /* Neutral/900 */
+
+        color: '#14171F',
+    },
+
+    contact : {
+        color : '#F9995D',
     }
 }
 
