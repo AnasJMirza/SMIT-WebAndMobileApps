@@ -3,7 +3,7 @@ const style = {
     wrapper : {
         border: '1.4px solid #E0E3EB',
         padding : '0px 30px',
-        marginTop : '60px',
+        // marginTop : '60px',
         width : '292px',
         height : '197px',
 
