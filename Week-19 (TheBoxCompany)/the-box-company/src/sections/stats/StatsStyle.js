@@ -1,4 +1,4 @@
-import { display } from "@mui/system";
+
 
 const style = {
     head : {
@@ -84,11 +84,16 @@ const style = {
         border: '2px solid #FFFFFF',
         borderRadius: '2px',
         color : 'white',
+        cursor : 'pointer',
 
         display : 'flex',
         justifyContent : 'center',
         alignItems : 'center',
+
+        
     }
+
+    
 }
 
 export default style;

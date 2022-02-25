@@ -70,8 +70,10 @@ const style = {
 
     FPPosition : {
         position : 'absolute',
-        top : '70vh',
+        
+        bottom : '0px',
         right : '0px',
+        
     },
 
     FPIcon : {
