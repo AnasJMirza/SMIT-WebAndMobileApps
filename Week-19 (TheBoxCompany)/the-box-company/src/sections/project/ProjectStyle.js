@@ -23,6 +23,14 @@ const style = {
     selected : {
         color : '#2947A9',
         fontWeight : '700',
+    },
+
+    btnFlex : {
+        display : 'flex',
+        justifyContent : 'space-around',
+        // border : '1px solid black',
+        width : '106%',
+        marginTop : '45px',
     }
 }
 

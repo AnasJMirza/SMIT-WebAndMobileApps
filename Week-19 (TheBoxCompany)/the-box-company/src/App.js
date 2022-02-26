@@ -6,6 +6,7 @@ import AboutUs from './sections/aboutUs/AboutUs';
 import Services from './sections/services/Services';
 import Stats from './sections/stats/Stats';
 import Project from './sections/project/Project';
+import ContactUs from './sections/contactUs/ContactUs';
 
 function App() {
   return (
@@ -21,6 +22,8 @@ function App() {
       <Stats />
 
       <Project/>
+
+      <ContactUs/>
 
       <br/>
       <br/>

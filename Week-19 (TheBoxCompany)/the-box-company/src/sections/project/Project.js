@@ -1,5 +1,6 @@
 import { Grid } from '@mui/material';
 import React from 'react';
+import Button from '../../components/button/Button';
 import ProjectCard from '../../components/projectCard/ProjectCard';
 import style from './ProjectStyle';
 
@@ -37,6 +38,20 @@ const Project = () => {
                         </Grid>
                     </Grid>
 
+                </Grid>
+
+                <Grid container>
+                    <Grid item md={4}></Grid>
+
+                    <Grid item md={7}>
+                        <div style={style.btnFlex}>
+                            <Button text="Back" west={true} />
+                            <Grid container alignItems={"center"} height="64px" justifyContent={"center"}>
+                                <img src='/images/pageControl.png' />
+                            </Grid>
+                            <Button text="Next" east={true} />
+                        </div>
+                    </Grid>
                 </Grid>
 
             </Grid>
