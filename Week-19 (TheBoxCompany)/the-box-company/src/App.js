@@ -7,6 +7,7 @@ import Services from './sections/services/Services';
 import Stats from './sections/stats/Stats';
 import Project from './sections/project/Project';
 import ContactUs from './sections/contactUs/ContactUs';
+import Footer from './sections/footer/Footer';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
       <Project/>
 
       <ContactUs/>
+
+      <Footer/>
 
       <br/>
       <br/>
