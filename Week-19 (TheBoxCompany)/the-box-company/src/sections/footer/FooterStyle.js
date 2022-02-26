@@ -66,6 +66,15 @@ const style = {
         flexDirection : 'column',
         justifyContent : 'space-around',
         height : '15vh',
+    },
+
+    iconFlex : {
+        display : 'flex',
+        width : '20%',
+        justifyContent : 'space-between',
+        marginLeft : '50px',
+        // border : '1px solid black',
+        color : '#3D445C',
     }
 }
 

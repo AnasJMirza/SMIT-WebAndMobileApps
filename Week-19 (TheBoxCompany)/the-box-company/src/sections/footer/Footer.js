@@ -3,11 +3,14 @@ import React from 'react';
 import Button from '../../components/button/Button';
 import Input from '../../components/input/Input';
 import style from './FooterStyle'
+import FacebookIcon from '@mui/icons-material/Facebook';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import TwitterIcon from '@mui/icons-material/Twitter';
 
 const Footer = () => {
     return (
-        <div style={style.main}>
-            <Grid container>
+        <div >
+            <Grid container style={style.main} marginTop="15vh">
 
 
                 <Grid item md={6}>
@@ -34,7 +37,7 @@ const Footer = () => {
                 </Grid>
 
 
-                <Grid item md={6}>
+                <Grid item md={6} container flexDirection={"column"} justifyContent="space-between" height={"35vh"}>
                     <div style={style.newsMain}>
 
                         <p style={style.contactHead}>NEWSLETTER:</p>
@@ -53,6 +56,24 @@ const Footer = () => {
                         color : 'white',
                         cursor : 'pointer',
                         marginLeft : '7px'}} />
+                        </div>
+
+                    </div>
+
+                    <div style={style.newsMain}>
+
+                        <p style={style.contactHead}>SOCIALS:</p>
+
+                        <div style={style.iconFlex}>
+                            <div>
+                                <FacebookIcon fontSize='large'/>
+                            </div>
+                            <div>
+                                <LinkedInIcon fontSize='large' />
+                            </div>
+                            <div>
+                                <TwitterIcon fontSize='large' />
+                            </div>
                         </div>
                         
                     </div>
