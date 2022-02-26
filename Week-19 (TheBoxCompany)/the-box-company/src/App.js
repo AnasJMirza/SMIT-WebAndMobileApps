@@ -5,6 +5,7 @@ import Reputation from './sections/reputation/Reputation';
 import AboutUs from './sections/aboutUs/AboutUs';
 import Services from './sections/services/Services';
 import Stats from './sections/stats/Stats';
+import Project from './sections/project/Project';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
       <Services/>
 
       <Stats />
+
+      <Project/>
 
       <br/>
       <br/>
