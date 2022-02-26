@@ -6,19 +6,22 @@ import style from './ProjectStyle';
 const Project = () => {
     return (
         <div>
-            <Grid container>
+            <Grid container marginTop={"90px"}>
 
-                <Grid item md={4}>
+                
+                <Grid item md={4} paddingLeft="60px">
                     <p style={style.head}>Projects</p>
-                    <p>All</p>
-                    <p>Commercial</p>
-                    <p>Residential</p>
-                    <p>Other</p>
+                    <div style={style.flex}>
+                        <p style={style.selected}>  |&nbsp; All</p>
+                        <p> &nbsp; Commercial</p>   
+                        <p> &nbsp; Residential</p>
+                        <p> &nbsp; Other</p>
+                    </div>
                 </Grid>
 
                 <Grid item md={8}>
 
-                    <Grid container>
+                    <Grid container marginTop="60px">
                         <Grid item md={6}>
                             <ProjectCard src="/images/project/1.png" head="Wildstone Infra Hotel" description="2715 Ash Dr. San Jose, South Dakota" />
                         </Grid>

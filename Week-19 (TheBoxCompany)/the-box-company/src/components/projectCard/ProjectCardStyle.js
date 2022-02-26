@@ -1,3 +1,5 @@
+
+
 const style = {
     BG : {
         background: '#2947A9',
@@ -9,6 +11,8 @@ const style = {
         fontWeight: 'bold',
         fontSize: '20px',
         lineHeight: '23px',
+        marginBottom : '7px',
+        
 
         /* Neutral/White */
 
@@ -29,7 +33,8 @@ const style = {
 
     padding : {
         padding : '10px'
-    }
+    },
+
 }
 
 export default style;
