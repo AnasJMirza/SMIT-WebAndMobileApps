@@ -28,11 +28,7 @@ function App() {
 
       <Footer/>
 
-      <br/>
-      <br/>
-      <br/>
-      <br/>
-      <br/>
+  
     </div>
   );
 }
