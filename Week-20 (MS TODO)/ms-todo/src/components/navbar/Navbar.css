@@ -1,0 +1,10 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+.logoSection {
+    display: flex;
+    justify-content: space-around;
+}
