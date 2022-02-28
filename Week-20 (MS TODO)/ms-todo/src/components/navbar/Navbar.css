@@ -1,7 +1,13 @@
 .nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
     padding: 0px 10px;
+    height: 60px;
+    color : white;
+    background-color: rgb(51, 51, 255);
+    
 }
 
 .logoSection {
