@@ -21,7 +21,7 @@ const Navbar = () => {
                 </div>
 
                 <div className='SearchBarSection'>
-                    <input type={"text"} placeholder="Search" />
+                    <input className='searchBar' type={"text"} placeholder="Search" />
                 </div>
 
                 <div className='profileSection'>

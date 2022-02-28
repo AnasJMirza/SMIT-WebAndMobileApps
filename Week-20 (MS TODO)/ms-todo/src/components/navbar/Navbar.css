@@ -14,3 +14,12 @@
     display: flex;
     justify-content: space-around;
 }
+
+.searchBar {
+    height: 30px;
+    width: 350px;
+    padding: 0px 20px;
+
+    border: none;
+    background-color: rgb(218, 127, 127);
+}
