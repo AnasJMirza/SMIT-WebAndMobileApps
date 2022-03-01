@@ -21,11 +21,27 @@ const Navbar = () => {
                 </div>
 
                 <div className='SearchBarSection'>
-                    <input className='searchBar' type={"text"} placeholder="Search" />
+                    <input className='searchBar' type={"text"} />
                 </div>
 
                 <div className='profileSection'>
-                    profile
+                    
+                    <div className='setting'>
+                        anas
+                    </div>
+
+                    <div className='feedback'>
+anas
+                    </div>
+
+                    <div className='whatsNew'>
+anas
+                    </div>
+
+                    <div className='accountPicture'>
+anas
+                    </div>
+
                 </div>
 
             </div>

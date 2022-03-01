@@ -13,13 +13,31 @@
 .logoSection {
     display: flex;
     justify-content: space-around;
+    width: 7%;
+    border: 1px solid black;
 }
 
 .searchBar {
-    height: 30px;
-    width: 350px;
+    height: 35px;
+    width: 360px;
     padding: 0px 20px;
 
     border: none;
-    background-color: rgb(218, 127, 127);
+    background-color: #c3ddf6;
+    
+}
+
+.searchBar:hover{
+    background-color: white;
+}
+
+.searchBarSection{
+    border: 2px solid black;
+}
+
+.profileSection{
+    display: flex;
+    justify-content: space-around;
+    width: 15%;
+    border: 1px solid black;
 }
