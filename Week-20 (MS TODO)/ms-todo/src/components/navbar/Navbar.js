@@ -14,9 +14,9 @@ const Navbar = () => {
 
                 <div
                  className='logoSection'>
-                    <div className='app'>
+                    
                         <AppsIcon/>
-                    </div>
+                    
 
                     <div className='logo'>
                         TODO
