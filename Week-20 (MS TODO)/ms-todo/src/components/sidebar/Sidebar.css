@@ -30,6 +30,7 @@
 
 .sidebarMove{
     transform: translateX(-100%);
+    transition: all 0.5s;
 }
 
 .closeMenu{
@@ -41,10 +42,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    color : #3b4255;
     /* border: 1px solid black; */
 }
 
-.menuIcon:hover{
+.closeMenu:hover{
     background-color: rgb(252, 252, 252);
 }
 

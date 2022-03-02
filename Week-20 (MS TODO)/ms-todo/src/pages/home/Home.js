@@ -1,4 +1,5 @@
 import React from 'react';
+import Details from '../../components/details/Details';
 import Navbar from '../../components/navbar/Navbar';
 import Sidebar from '../../components/sidebar/Sidebar.js';
 
@@ -10,6 +11,8 @@ const Home = () => {
             <Navbar/>
 
             <Sidebar/>
+
+            <Details/>
             
         </div>
     );
