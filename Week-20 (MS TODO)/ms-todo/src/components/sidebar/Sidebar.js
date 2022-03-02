@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Sidebar.css'
 import LightModeIcon from '@mui/icons-material/LightMode';
 import StarBorderIcon from '@mui/icons-material/StarBorder';
@@ -13,11 +13,18 @@ import DoneOutlineIcon from '@mui/icons-material/DoneOutline';
 
 
 const SideBar = () => {
+
+    const [sidebarState, setSidebarState] = useState(false);
+
     return (
         <div>
-            <div className='sidebar'>
 
-                <span className='menuIcon'>
+            <span className='openMenu' onClick={()=>{setSidebarState(true)}}>
+                <MenuIcon fontSize='small'/>
+            </span>
+            <div className={`sidebar ${sidebarState ? '' : 'sidebarMove'}`} >
+
+                <span className='closeMenu' onClick={()=>{setSidebarState(false)}}>
                     <MenuIcon fontSize='small'/>
                 </span>
                 <div className='sidebarHorizentalAlign'>
