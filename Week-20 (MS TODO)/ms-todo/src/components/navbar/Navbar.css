@@ -6,15 +6,39 @@
     padding: 0px 10px;
     height: 60px;
     color : white;
-    background-color: rgb(51, 51, 255);
+    background-color: #0078d7;
     
 }
 
 .logoSection {
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 60px;
     width: 7%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+}
+
+.logo{
+    cursor: pointer;
+}
+
+.app{
+    cursor: pointer;
+}
+
+.searchBarSection{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchBarLogo{
+    padding-left: 10px;
+    position: absolute;
+    top: 18px;
+    color: #0078d7;
+    /* left: 5px; */
 }
 
 .searchBar {
@@ -23,21 +47,24 @@
     padding: 0px 20px;
 
     border: none;
+    border-radius: 3px;
     background-color: #c3ddf6;
+    cursor: pointer;
     
 }
 
 .searchBar:hover{
     background-color: white;
+    
 }
 
-.searchBarSection{
-    border: 2px solid black;
-}
 
 .profileSection{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    height: 60px;
     width: 15%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    
 }
