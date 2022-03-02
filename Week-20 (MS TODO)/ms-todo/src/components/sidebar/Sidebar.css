@@ -37,3 +37,25 @@
     font-size: 14px;
 }
 
+.bottomIcons{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 270px;
+    color : #3b4255;
+    /* border: 1px solid black; */
+}
+
+.bottomIcon:hover{
+    cursor: pointer;
+    background-color: rgb(252, 252, 252);
+}
+
+.bottomIcon{
+    /* border: 1px solid black; */
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
