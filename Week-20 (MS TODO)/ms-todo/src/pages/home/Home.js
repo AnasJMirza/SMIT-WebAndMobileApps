@@ -13,6 +13,8 @@ const Home = () => {
             <Sidebar/>
 
             <Details/>
+
+            {/* Lists */}
             
         </div>
     );
