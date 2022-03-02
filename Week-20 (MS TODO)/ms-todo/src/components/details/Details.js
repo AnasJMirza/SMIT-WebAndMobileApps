@@ -2,14 +2,18 @@ import React from 'react';
 import './Details.css'
 import LightbulbOutlinedIcon from '@mui/icons-material/LightbulbOutlined';
 import ImportExportOutlinedIcon from '@mui/icons-material/ImportExportOutlined';
+import LinearScaleOutlinedIcon from '@mui/icons-material/LinearScaleOutlined';
 
 const Details = () => {
     return (
         <div>
             <div className='details'>
                 <div className='date'>
-                    <p>My Day</p>
-                    <p>Wednesday, March 2</p>
+                    <div className='dateFlex'>
+                        <p className='dateHeading'>My Day</p>
+                        <LinearScaleOutlinedIcon/>
+                    </div>
+                    <p className='dateSubHeading'>Wednesday, March 2</p>
                 </div>
 
                 <div className='dateIcons'>
