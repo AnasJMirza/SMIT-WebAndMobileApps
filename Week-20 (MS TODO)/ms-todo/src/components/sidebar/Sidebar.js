@@ -5,13 +5,18 @@ import StarBorderIcon from '@mui/icons-material/StarBorder';
 import CalendarTodayIcon from '@mui/icons-material/CalendarToday';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import HomeIcon from '@mui/icons-material/Home';
+import MenuIcon from '@mui/icons-material/Menu';
 
 const SideBar = () => {
     return (
         <div>
             <div className='sidebar'>
-                <div className='sidebarHorizentalAlign'>
 
+                <span className='menuIcon'>
+                    <MenuIcon />
+                </span>
+                <div className='sidebarHorizentalAlign'>
+                    
                     <LightModeIcon/>
 
                     <div className='myDayText'>

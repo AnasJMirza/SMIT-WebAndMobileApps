@@ -15,11 +15,13 @@ const Navbar = () => {
                 <div
                  className='logoSection'>
                     
+                    <div className='navLeftIcon'>
                         <AppsIcon/>
+                    </div>
                     
 
-                    <div className='logo'>
-                        TODO
+                    <div className='navLeftIcon'>
+                        <p>TODO</p>
                     </div>
 
                 </div>
@@ -35,19 +37,19 @@ const Navbar = () => {
 
                 <div className='profileSection'>
                     
-                    <div className='setting'>
+                    <div className='navRightIcon'>
                         <SettingsIcon/>
                     </div>
 
-                    <div className='feedback'>
+                    <div className='navRightIcon'>
                         <HelpIcon/>
                     </div>
 
-                    <div className='whatsNew'>
+                    <div className='navRightIcon'>
                         <CampaignIcon/>
                     </div>
 
-                    <div className='accountPicture'>
+                    <div className='navRightIcon'>
                         <AccountCircleIcon/>               
                     </div>
 
