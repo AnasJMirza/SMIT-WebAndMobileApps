@@ -11,19 +11,21 @@ const Details = () => {
                 <div className='date'>
                     <div className='dateFlex'>
                         <p className='dateHeading'>My Day</p>
-                        <LinearScaleOutlinedIcon/>
+                        <div className='scaleIcon'>
+                            <LinearScaleOutlinedIcon/>
+                        </div>
                     </div>
                     <p className='dateSubHeading'>Wednesday, March 2</p>
                 </div>
 
                 <div className='dateIcons'>
                     
-                    <div className='dateIcons'>
+                    <div className='dateIcon'>
                         <ImportExportOutlinedIcon fontSize='small'/>
                         <p>Sort</p>
                     </div>
 
-                    <div className='dateIcons'>
+                    <div className='dateIcon'>
                         <LightbulbOutlinedIcon fontSize='small'/>
                         <p>Suggestions</p>    
                     </div>
