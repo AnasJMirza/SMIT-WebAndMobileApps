@@ -12,6 +12,7 @@
 
 .scaleIcon{
     cursor: pointer;
+    
 }
 
 .dateIcons{
@@ -30,7 +31,12 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    padding: 0px 15px;
     cursor: pointer;
+}
+
+.dateIcon:hover{
+    background-color: #acacac;
 }
 
 .date{
