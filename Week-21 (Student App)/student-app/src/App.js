@@ -13,6 +13,22 @@ const App = () => {
   const [studentsData, setStudentsData] = useState(data)
 
   const [name, setName] = useState('')
+  const [age, setAge] = useState('')
+  const [rollNo, setRollNo] = useState('')
+
+  const newData = {
+    name : name,
+    age : age,
+    rollNo : rollNo
+  }
+
+  
+  
+
+  const submitHandler = ()=>{
+    setStudentsData([...data, newData]);
+    console.log(studentsData);
+  }
 
 
   return (
@@ -21,9 +37,11 @@ const App = () => {
       {/* Form Section */}
 
       <input type="text"  onChange={(e)=>setName(e.target.value)}  placeholder='Enter your name'/>
+      <input type="number"  onChange={(e)=>setAge(e.target.value)}  placeholder='Enter your age'/>
+      <input type="number"  onChange={(e)=>setRollNo(e.target.value)}  placeholder='Enter your roll no'/>
 
       <div className='btnWrapper'>
-      <Button variant="contained">Submit</Button>
+      <Button variant="contained" onClick={submitHandler}>Submit</Button>
       </div>
       
 
