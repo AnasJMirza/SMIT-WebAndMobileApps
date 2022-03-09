@@ -43,12 +43,22 @@ const App = () => {
       
       {/* Form Section */}
 
-      <input type="text"  onChange={(e)=>setName(e.target.value)}  placeholder='Enter your name'/>
-      <input type="number"  onChange={(e)=>setAge(e.target.value)}  placeholder='Enter your age'/>
-      <input type="number"  onChange={(e)=>setRollNo(e.target.value)}  placeholder='Enter your roll no'/>
+      <div className='form'>
+        <div>
+        <div>
+          <input type="text"  onChange={(e)=>setName(e.target.value)}  placeholder='Enter your name'/>
+        </div>
+        <div>
+          <input type="number"  onChange={(e)=>setAge(e.target.value)}  placeholder='Enter your age'/>
+        </div>
+        <div>
+          <input type="number"  onChange={(e)=>setRollNo(e.target.value)}  placeholder='Enter your roll no'/>
+        </div>
 
-      <div className='btnWrapper'>
-      <Button variant="contained" onClick={submitHandler}>Submit</Button>
+        <div className='btnWrapper'>
+        <Button variant="contained" onClick={submitHandler}>Submit</Button>
+        </div>
+        </div>
       </div>
       
 
