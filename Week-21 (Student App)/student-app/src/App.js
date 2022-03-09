@@ -28,7 +28,7 @@ const App = () => {
       rollNo : rollNo
     }
 
-    setStudentsData([...data, newData]);
+    setStudentsData([...studentsData, newData]);
     
     // setName('');
     // setAge('');
