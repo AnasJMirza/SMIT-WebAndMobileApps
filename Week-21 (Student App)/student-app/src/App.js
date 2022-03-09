@@ -3,9 +3,9 @@ import './App.css'
 import Button from '@mui/material/Button';
 
 const data = [
-  {name : 'Anas', age : 22, rollNo : 14148},
-  {name : 'Imran', age : 18, rollNo : 14234},
-  {name : 'Junaid', age : 21, rollNo : 12238},
+  // {name : 'Anas', age : 22, rollNo : 14148},
+  // {name : 'Imran', age : 18, rollNo : 14234},
+  // {name : 'Junaid', age : 21, rollNo : 12238},
 ]
 
 const App = () => {
