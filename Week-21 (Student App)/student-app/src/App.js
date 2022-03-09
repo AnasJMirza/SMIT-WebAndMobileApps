@@ -43,8 +43,13 @@ const App = () => {
       
       {/* Form Section */}
 
+      
+
       <div className='form'>
         <div>
+        <div>
+          <h3>Enter Details</h3>
+        </div>
         <div>
           <input type="text"  onChange={(e)=>setName(e.target.value)}  placeholder='Enter your name'/>
         </div>
@@ -56,7 +61,7 @@ const App = () => {
         </div>
 
         <div className='btnWrapper'>
-        <Button variant="contained" onClick={submitHandler}>Submit</Button>
+          <Button variant="contained" onClick={submitHandler}>Submit</Button>
         </div>
         </div>
       </div>
@@ -64,19 +69,21 @@ const App = () => {
 
       {/* Data Visualization Section */}
 
-      <table className='table' border='border'>
+      <div className='tableSection'>
+        <table className='table' border='border'>
 
-        <tr>
-          <th>Name</th>
-          <th>Age</th>
-          <th>Roll No</th>
-        </tr>
+          <tr>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Roll No</th>
+          </tr>
 
-        {studentsData.map((item)=>{
-          return <tr> <td>{item.name}</td> <td>{item.age}</td> <td>{item.rollNo}</td> </tr>
-        })}
+          {studentsData.map((item)=>{
+            return <tr> <td>{item.name}</td> <td>{item.age}</td> <td>{item.rollNo}</td> </tr>
+          })}
 
-      </table>
+        </table>
+      </div>
 
     </div>
   );
