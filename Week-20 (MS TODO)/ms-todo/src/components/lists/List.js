@@ -41,7 +41,7 @@ const List = () => {
             <div className='tableSection'>
                 <table className='table'>
                     {todos.map((item)=>{
-                        return <tr><td>{item}<hr/></td></tr>
+                        return <tr><td> <div className='tableFlex'><input type={"radio"}/> <div className='tableData'>{item} <div className='tasks'>Tasks</div></div></div> <hr/></td></tr>
                     })}
 
                     {/* <tr>

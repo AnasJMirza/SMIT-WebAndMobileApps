@@ -41,3 +41,17 @@ div{
 .table{
     width: 96%;
 }
+
+.tasks{
+    font-size: 12px;
+    
+}
+
+.tableData{
+    padding-left: 10px;
+}
+
+.tableFlex{
+    display: flex;
+    align-items: center;
+}
