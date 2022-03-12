@@ -43,10 +43,6 @@ const List = () => {
                     {todos.map((item)=>{
                         return <tr><td> <div className='tableFlex'><input type={"radio"}/> <div className='tableData'>{item} <div className='tasks'>Tasks</div></div></div> <hr/></td></tr>
                     })}
-
-                    {/* <tr>
-                        <td>anas</td>
-                    </tr> */}
                 </table>
             </div>
             
