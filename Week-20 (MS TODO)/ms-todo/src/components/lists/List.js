@@ -11,6 +11,7 @@ const List = () => {
 
         let newTodo = inputValue
         setTodos([...todos, newTodo])
+        setInputValue('')
         
     }
 
@@ -31,7 +32,7 @@ const List = () => {
             <div className='lists'>
                 <div className='addTodo'>
                     <div className='textWrapper'>
-                        <input type='text' placeholder='Add Some Task' onChange={(e)=>{setInputValue(e.target.value)}} className='addTask' onKeyUp={enter} />
+                        <input type='text' placeholder='Add Some Task' onChange={(e)=>{setInputValue(e.target.value)}} className='addTask' onKeyUp={enter} value={inputValue} />
                     </div>
                 </div>
             </div>
