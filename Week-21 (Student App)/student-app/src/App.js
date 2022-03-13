@@ -31,6 +31,7 @@ const App = () => {
   const [name, setName] = useState('')
   const [email, setEmail] = useState('')
   const [rollNo, setRollNo] = useState('')
+  const [updateFlag, setUpdateFlag] = useState(false)
   
 
   const submitHandler = ()=>{
@@ -54,6 +55,24 @@ const App = () => {
   const delHandler = (email)=>{
     let newStudentsData = studentsData.filter((studentsData)=> studentsData.email != email)
     setStudentsData(newStudentsData)
+  }
+
+  
+
+  const updateHandler = (item) =>{
+
+    setUpdateFlag(true)
+    setName(item.name)
+    setEmail(item.email)
+    setRollNo(item.rollNo)
+  }
+
+  const updatePress = () => {
+
+    setUpdateFlag(false)
+    setName('')
+    setEmail('')
+    setRollNo('')
   }
 
 
@@ -80,7 +99,7 @@ const App = () => {
         </div>
 
         <div className='btnWrapper'>
-          <Button variant="contained" onClick={submitHandler}>Submit</Button>
+          {updateFlag ? <Button variant="contained" onClick={()=>{updatePress()}}>Update</Button> : <Button variant="contained" onClick={submitHandler}>Submit</Button>}
         </div>
         </div>
       </div>
@@ -99,7 +118,7 @@ const App = () => {
           </tr>
 
           {studentsData.map((item)=>{
-            return <tr> <td className='td'>{item.name}</td> <td className='td'>{item.email}</td> <td className='td'>{item.rollNo}</td> <td className='td'><button onClick={()=>{delHandler(item.email)}}>Delete</button></td> </tr>
+            return <tr> <td className='td'>{item.name}</td> <td className='td'>{item.email}</td> <td className='td'>{item.rollNo}</td> <td className='td'><button onClick={()=>{delHandler(item.email)}}>Delete</button> <button onClick={()=>updateHandler(item)}>Update</button></td> </tr>
           })}
 
         </table>
