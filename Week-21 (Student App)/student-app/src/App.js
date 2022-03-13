@@ -52,13 +52,13 @@ const App = () => {
           <h3>Enter Details</h3>
         </div>
         <div>
-          <input type="text"  onChange={(e)=>setName(e.target.value)} value={name} placeholder='Enter your name'/>
+          <input type="text"  onChange={(e)=>setName(e.target.value)} value={name} placeholder='Enter your name' className='input'/>
         </div>
         <div>
-          <input type="email"  onChange={(e)=>setEmail(e.target.value)}value={email}  placeholder='Enter your age'/>
+          <input type="email"  onChange={(e)=>setEmail(e.target.value)} value={email}  placeholder='Enter your Email' className='input'/>
         </div>
         <div>
-          <input type="number"  onChange={(e)=>setRollNo(e.target.value)} value={rollNo} placeholder='Enter your roll no'/>
+          <input type="number"  onChange={(e)=>setRollNo(e.target.value)} value={rollNo} placeholder='Enter your roll no' className='input'/>
         </div>
 
         <div className='btnWrapper'>
