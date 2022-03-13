@@ -2,7 +2,25 @@ import React, { useState } from 'react';
 import './App.css'
 import Button from '@mui/material/Button';
 
-const data = []
+const data = [
+  { 
+  name : 'Anas',
+  email : 'anas@gmail.com',
+  rollNo : '14148'
+  },
+
+  { 
+    name : 'Asad',
+    email : 'asad@gmail.com',
+    rollNo : '14234'
+  },
+
+  { 
+    name : 'Ali',
+    email : 'ali@gmail.com',
+    rollNo : '13982'
+  }
+]
 
 const App = () => {
 
@@ -81,7 +99,7 @@ const App = () => {
           </tr>
 
           {studentsData.map((item)=>{
-            return <tr> <td>{item.name}</td> <td>{item.email}</td> <td>{item.rollNo}</td> <td><button onClick={()=>{delHandler(item.email)}}>Delete</button></td> </tr>
+            return <tr> <td className='td'>{item.name}</td> <td className='td'>{item.email}</td> <td className='td'>{item.rollNo}</td> <td className='td'><button onClick={()=>{delHandler(item.email)}}>Delete</button></td> </tr>
           })}
 
         </table>
