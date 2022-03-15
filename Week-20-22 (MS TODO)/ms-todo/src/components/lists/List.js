@@ -17,11 +17,17 @@ const List = () => {
 
     const enter = (event)=>{
         if (event.keyCode == 13) {
-            console.log("anas");
             submitHandler()
             
             
         }
+    }
+
+    const delHandler = (index) =>{
+        console.log(index);
+        let newList = [todos.filter((item,i)=> i != index) ]
+        console.log(newList);
+        setTodos(newList)
     }
 
 
@@ -41,8 +47,8 @@ const List = () => {
 
             <div className='tableSection'>
                 <table className='table'>
-                    {todos.map((item)=>{
-                        return <tr><td> <div className='listFlex'><div className='tableFlex'><input type={"radio"}/> <div className='tableData'>{item} <div className='tasks'>Tasks</div></div></div> <div className='delBtn'><button>Delete</button></div></div> <hr/></td></tr>
+                    {todos.map((item, index)=>{
+                        return <tr><td> <div className='listFlex'><div className='tableFlex'><input type={"radio"}/> <div className='tableData'>{item} <div className='tasks'>Tasks</div></div></div> <div className='delBtn'><button onClick={()=>delHandler(index)}>Delete</button></div></div> <hr/></td></tr>
                     })}
                 </table>
             </div>
