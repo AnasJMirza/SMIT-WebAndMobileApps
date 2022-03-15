@@ -1,0 +1,73 @@
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 0px 10px;
+    height: 60px;
+    color : white;
+    background-color: #0078d7;
+    
+}
+
+.logoSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 7%;
+    /* border: 1px solid black; */
+}
+
+.navLeftIcon{
+    cursor: pointer;
+    display: flex;
+    /* padding-top: 5px; */
+}
+
+.searchBarSection{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.searchBarLogo{
+    padding-left: 10px;
+    position: absolute;
+    top: 18px;
+    color: #0078d7;
+    /* left: 5px; */
+}
+
+.searchBar {
+    height: 35px;
+    width: 360px;
+    padding: 0px 0px 0px 40px;
+
+    border: none;
+    border-radius: 3px;
+    background-color: #c3ddf6;
+    cursor: pointer;
+    
+}
+
+.searchBar:hover{
+    background-color: white;
+    
+}
+
+
+.profileSection{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    width: 15%;
+    /* border: 1px solid black; */
+    padding-top: 5px;
+    
+}
+
+.navRightIcon:hover{
+    cursor: pointer;
+}

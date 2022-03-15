@@ -1,0 +1,96 @@
+/* Sidebar */
+
+.openMenu{
+    margin-left: 20px;
+    cursor: pointer;
+    position: absolute;
+    top: 80px;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : #3b4255;
+}
+
+.openMenu:hover{
+    background-color: #f5f5f5;
+}
+
+.sidebar{
+    background-color: #f5f5f5;
+    width: 300px;
+    position: fixed;
+    top: 60px;
+    bottom: 0;
+    left: 0;
+
+    padding-top: 20px;
+}
+
+.sidebarMove{
+    transform: translateX(-100%);
+    transition: all 0.5s;
+}
+
+.closeMenu{
+    margin-left: 20px;
+    /* width: 10px; */
+    cursor: pointer;
+    width: 35px;
+    height: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : #3b4255;
+    /* border: 1px solid black; */
+}
+
+.closeMenu:hover{
+    background-color: rgb(252, 252, 252);
+}
+
+.sidebarHorizentalAlign{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    /* width: 50%; */
+    color : #3b4255;
+    padding-left: 20px;
+    /* border: 1px solid black; */
+    
+}
+
+.sidebarHorizentalAlign:hover{
+    background-color: rgb(252, 252, 252);
+    cursor: pointer;
+}
+
+.sidebarHorizentalPadding{
+    padding-left: 20px;
+    font-size: 14px;
+}
+
+.bottomIcons{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    height: 270px;
+    color : #3b4255;
+    padding-right: 10px;
+    /* border: 1px solid black; */
+}
+
+.bottomIcon:hover{
+    cursor: pointer;
+    background-color: rgb(252, 252, 252);
+}
+
+.bottomIcon{
+    /* border: 1px solid black; */
+    width: 60px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
