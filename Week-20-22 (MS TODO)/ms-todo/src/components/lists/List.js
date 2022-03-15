@@ -48,7 +48,7 @@ const List = () => {
             <div className='tableSection'>
                 <table className='table'>
                     {todos.map((item, index)=>{
-                        return <tr><td> <div className='listFlex'><div className='tableFlex'><input type={"radio"}/> <div className='tableData'>{item} <div className='tasks'>Tasks</div></div></div> <div className='delBtn'><button onClick={()=>delHandler(index)}>Delete</button></div></div> <hr/></td></tr>
+                        return <tr><td> <div className='listFlex'><div className='tableFlex'><input type={"radio"}/> <div className='tableData'>{item.task} <div className='tasks'>Tasks</div></div></div> <div className='delBtn'><button onClick={()=>delHandler(index)}>Delete</button></div></div> <hr/></td></tr>
                     })}
                 </table>
             </div>
