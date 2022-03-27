@@ -57,6 +57,7 @@ const App = () => {
     setStudentsData(newStudentsData)
   }
 
+  let oldName = ''
   
 
   const updateHandler = (item) =>{
@@ -65,9 +66,12 @@ const App = () => {
     setName(item.name)
     setEmail(item.email)
     setRollNo(item.rollNo)
+
+    oldName = name
   }
 
   const updatePress = () => {
+
 
     setUpdateFlag(false)
     setName('')
@@ -99,7 +103,7 @@ const App = () => {
         </div>
 
         <div className='btnWrapper'>
-          {updateFlag ? <Button variant="contained" onClick={()=>{updatePress()}}>Update</Button> : <Button variant="contained" onClick={submitHandler}>Submit</Button>}
+          {updateFlag ? <Button variant="contained" onClick={()=>{updatePress(name, email, rollNo)}}>Update</Button> : <Button variant="contained" onClick={submitHandler}>Submit</Button>}
         </div>
         </div>
       </div>
