@@ -4,9 +4,8 @@ import './StudentInfo.css'
 
 const StudentInfo = () => {
 
-    const name = useSelector((store)=> store.studentInfoReducer.name)
-    const rollNo = useSelector((store)=> store.studentInfoReducer.rollNo)
-    const degree = useSelector((store)=> store.studentInfoReducer.degree)
+    const studentsData = useSelector((store)=> store.studentInfoReducer)
+    console.log(studentsData);
 
     return (
         <div className='background'>
@@ -19,9 +18,9 @@ const StudentInfo = () => {
                     </tr>
 
                     <tr>
-                        <td>{name}</td>
-                        <td>{rollNo}</td>
-                        <td>{degree}</td>
+                        <td>#</td>
+                        <td>#</td>
+                        <td>#</td>
                     </tr>
                 </table>
             </div>
