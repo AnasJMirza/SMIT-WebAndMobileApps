@@ -1,0 +1,53 @@
+.formLayout{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    /* background-color: rgb(111, 174, 255); */
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,91,255,1) 50%, rgba(0,212,255,1) 100%);
+}
+
+
+.formBody{
+    background-color: white;
+    width: 30vw;
+    height: 60vh;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.studentInfo{
+    font-size: 25px;
+}
+
+hr{
+    margin-top: 10px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    height: 5vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin: 10px 0px;
+}
+
+input:focus{
+    outline: none;
+}
+
+.submit{
+    margin-top: 5px;
+    font-size: 18px;
+    width: 100%;
+    height: 7vh;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(33, 85, 255);
+}

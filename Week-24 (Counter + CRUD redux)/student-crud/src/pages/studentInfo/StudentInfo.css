@@ -1,0 +1,27 @@
+.background{
+    background: rgb(0,252,255);
+    background: linear-gradient(0deg, rgba(0,252,255,1) 0%, rgba(94,0,255,1) 100%);
+    height: 90vh;
+}
+
+.tableLayout{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+
+table{
+    width: 50%;
+    /* border: 2px solid black; */
+    background-color: white;
+}
+
+td{
+    padding: 3px 10px;
+    border: 1px solid black;
+}
+
+th{
+    border: 1px solid black;
+}
