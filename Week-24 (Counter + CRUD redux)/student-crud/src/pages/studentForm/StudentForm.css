@@ -15,6 +15,10 @@
     height: 60vh;
     border-radius: 10px;
     padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .studentInfo{

@@ -15,13 +15,18 @@ const StudentInfo = () => {
                         <th>Name</th>
                         <th>Roll No</th>
                         <th>Degree</th>
+                        <th>Actions</th>
                     </tr>
 
-                    <tr>
-                        <td>#</td>
-                        <td>#</td>
-                        <td>#</td>
-                    </tr>
+                    {studentsData.map((item)=>{
+                        return <tr>
+                            <td>{item.name}</td>
+                            <td>{item.rollNo}</td>
+                            <td>{item.degree}</td>
+                            <td><button>Delete</button> <button>Update</button></td>
+                        </tr>
+                    })}
+
                 </table>
             </div>
         </div>
