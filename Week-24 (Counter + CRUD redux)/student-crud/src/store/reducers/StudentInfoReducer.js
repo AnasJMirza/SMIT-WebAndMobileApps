@@ -1,4 +1,5 @@
 import {ADD_STUDENT} from '../actions/StudentInfoAction'
+import { DEL_STUDENT } from '../actions/StudentInfoAction';
 
 
 
@@ -37,7 +38,14 @@ export default function studentInfoReducer(state = initialState, action) {
                 newStudentData
             ]
         }
-            
+         
+        case DEL_STUDENT:{
+            console.log("Del student reducer run");
+            let newStudentData = action.payLoad
+            console.log(newStudentData);
+
+            return newStudentData
+        }
     
         default:
             return state

@@ -12,3 +12,11 @@ export function addStudent(data) {
         payLoad : data,
     }
 }
+
+export function deleteStudent(data) {
+    console.log("Delete Student Action Call", data);
+    return{
+        type : DEL_STUDENT,
+        payLoad : data,
+    }
+}
