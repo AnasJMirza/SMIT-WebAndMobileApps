@@ -1,5 +1,6 @@
 
 export const ADD_STUDENT = 'ADD_STUDENT';
+export const DEL_STUDENT = 'DEL_STUDENT';
 
 
 
