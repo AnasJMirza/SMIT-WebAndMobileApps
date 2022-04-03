@@ -1,6 +1,7 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import { useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 import { deleteStudent } from '../../store/actions/StudentInfoAction'; 
 import './StudentInfo.css'
 
@@ -16,6 +17,10 @@ const StudentInfo = () => {
 
         let data = studentsData.filter((item) => item.rollNo != rollNo)
         dispatch(deleteStudent(data))
+    }
+
+    const updateHandler = ()=>{
+        
     }
 
     return (
@@ -34,7 +39,7 @@ const StudentInfo = () => {
                             <td>{item.name}</td>
                             <td>{item.rollNo}</td>
                             <td>{item.degree}</td>
-                            <td><button onClick={()=>delHandler(item.rollNo)}>Delete</button> <button>Update</button></td>
+                            <td><button onClick={()=>delHandler(item.rollNo)}>Delete</button> <button onClick={()=>updateHandler}><Link to={'/'}>Update</Link></button></td>
                         </tr>
                     })}
 
