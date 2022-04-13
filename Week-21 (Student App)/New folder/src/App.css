@@ -1,0 +1,36 @@
+
+.form{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input{
+    height: 40px;
+    width: 300px;
+    margin-top: 10px;
+    padding-left: 10px;
+}
+
+.btnWrapper{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.tableSection{
+    display: flex;
+    justify-content: center;
+    /* width: 100%; */
+}
+
+.table{
+    margin-top: 100px;
+    width: 50%;
+    width: 80%;
+}
+
+.td{
+    padding: 5px 10px;
+}
