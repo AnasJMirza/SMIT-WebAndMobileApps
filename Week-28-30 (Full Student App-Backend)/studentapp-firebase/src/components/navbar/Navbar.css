@@ -28,4 +28,11 @@
 
 .navbar-routes{
     cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-button{
+    color: crimson;
+    text-decoration: none;
 }
