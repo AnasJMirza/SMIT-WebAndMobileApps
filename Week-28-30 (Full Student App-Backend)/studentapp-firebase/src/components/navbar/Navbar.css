@@ -1,0 +1,31 @@
+.navbar-body{
+    height: 60px;
+    background-color: crimson;
+}
+
+.navbar-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+}
+
+.logo{
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.navbar-routes-wrapper{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    width: 250px;
+    font-weight: 500;
+    
+}
+
+.navbar-routes{
+    cursor: pointer;
+}
