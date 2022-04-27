@@ -5,13 +5,12 @@ import UseHome from './UseHome';
 const Home = () => {
 
     const {students} = UseHome()
-    // console.log(students);
 
     return (
         <div>
             <Button label="Add" route="/add-students" bg="crimson" color="white"/>
 
-            <table>
+            <table border="1">
                 <thead>
                     <th>
                         <td>Name</td>

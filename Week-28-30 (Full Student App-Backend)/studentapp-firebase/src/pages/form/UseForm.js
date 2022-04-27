@@ -15,7 +15,7 @@ const UseForm = () => {
     }
 
     const submitHandler = ()=>{
-        console.log("Name dipatched");
+        console.log("Name dispatched");
         dispatch(AddStudent({name:name}))
     }
 
