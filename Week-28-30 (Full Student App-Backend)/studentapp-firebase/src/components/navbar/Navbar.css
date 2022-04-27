@@ -32,7 +32,9 @@
     text-decoration: none;
 }
 
-.navbar-button{
-    color: crimson;
-    text-decoration: none;
+.navbar-buttons-wrapper{
+    display: flex;
+    justify-content: space-around;
+    width: 180px;
+    
 }

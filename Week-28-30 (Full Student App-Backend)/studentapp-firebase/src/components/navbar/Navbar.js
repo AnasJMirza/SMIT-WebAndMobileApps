@@ -1,7 +1,6 @@
 import React from 'react';
-import Stack from '@mui/material/Stack';
-import Button from '@mui/material/Button';
 import { Link } from 'react-router-dom'
+import Button from '../button/Button';
 import './Navbar.css'
 
 const Navbar = () => {
@@ -17,15 +16,8 @@ const Navbar = () => {
                     <Link to={"/"} className="navbar-routes">Contact</Link>
                 </div>
                 <div className='navbar-buttons-wrapper'>
-                    <Stack spacing={2} direction="row">
-                        <Button variant="contained" style={{
-                            backgroundColor: "#ffffff",
-                        }}><Link to={"/login"} className="navbar-button">Login</Link></Button>
-
-                        <Button variant="outlined" style={{
-                            border: "1px solid #ffffff",
-                        }}><Link to={"/signup"} className="navbar-button" style={{color:'white'}}>Signup</Link></Button>
-                    </Stack>
+                    <Button label='Login' color='crimson' bg='white' route='/login'/>
+                    <Button label='Signup' color='white' bg='crimson' route='signup'/>
                 </div>
             </div>
         </div>
