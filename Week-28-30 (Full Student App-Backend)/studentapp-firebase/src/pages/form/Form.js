@@ -3,6 +3,7 @@ import './Form.css'
 import Button from '../../components/button/Button';
 import UseForm from './UseForm';
 
+
 const Form = () => {
 
     const { nameGetter, submitHandler } = UseForm();
@@ -15,6 +16,7 @@ const Form = () => {
                 <div onClick={submitHandler}>
                 <Button label="Submit" bg="crimson" color="White" route="/" />
                 </div>
+                
             </form>
         </div>
     );
