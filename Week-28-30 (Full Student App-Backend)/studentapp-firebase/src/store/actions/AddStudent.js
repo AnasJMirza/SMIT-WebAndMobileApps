@@ -40,7 +40,14 @@ export const AddStudent = (data) => async (dispatch) => {
 }
 
 
-// export const FetchStudent = (data) => async (dispatch) => {
-    
-// }
+export const FetchStudent = (data) => async (dispatch) => {
+    try {
+        dispatch({
+            type:FETCH_STUDENT,
+            payload: data
+        })
+    } catch (error) {
+        
+    }
+}
 

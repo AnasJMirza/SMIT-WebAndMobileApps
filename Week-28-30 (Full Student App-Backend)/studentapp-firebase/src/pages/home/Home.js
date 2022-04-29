@@ -13,11 +13,26 @@ const Home = () => {
     const studentsCollection = collection(db, "students")
 
     useEffect(()=>{
+        const getData = async ()=>{
+            const firebaseData = await getDocs(studentsCollection)
+            // console.log(firebaseData.docs.map((item)=>item.data()));
+            const cleanData = firebaseData.docs.map((item)=>item.data())
 
+            dispatch(FetchStudent(cleanData))
+        }
+
+        getData();
     }, [])
 
     const {students} = UseHome()
-    // console.log("students", students.name);
+    // console.log("students kuch khaas", students[0].map((item)=>item.name.name));
+    // const readData = students[0][0];
+    // console.log("Kuch Khhas", readData);
+
+    // const arr = {
+    //     name : {name : 'Anas'}
+    // }
+    // console.log(arr.name.name);
 
 
 

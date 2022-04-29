@@ -2,15 +2,7 @@ import { ADD_STUDENT, FETCH_STUDENT } from "../actions/AddStudent"
 
 
 const initialState = [
-    {
-        name:'Anas',  
-    },
-    {
-        name:'Juniad',  
-    },
-    {
-        name:'Ahsan',  
-    },
+    
 ]
 
 export default function StudentReducer(state=initialState, action) {
@@ -23,15 +15,16 @@ export default function StudentReducer(state=initialState, action) {
                 ...state,
                 newStudents
             ]
-        // case FETCH_STUDENT:
-        //     console.log("FETCH STUDENT");
-        //     console.log(action.payload);
+        case FETCH_STUDENT:
+            console.log("FETCH STUDENT");
+            console.log(action.payload);
 
-        //     let newData = action.payload
-        //     return[
-        //         ...state,
-        //         newData
-        //     ]
+            let newData = action.payload
+            return [
+                // ...state,
+                newData
+            ]
+                
             
     
         default:
