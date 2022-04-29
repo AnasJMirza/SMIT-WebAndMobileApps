@@ -21,7 +21,7 @@ export default function StudentReducer(state=initialState, action) {
 
             let newData = action.payload
             return [
-                // ...state,
+                ...state,
                 newData
             ]
                 

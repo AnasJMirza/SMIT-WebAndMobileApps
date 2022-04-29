@@ -25,7 +25,7 @@ const Home = () => {
     }, [])
 
     const {students} = UseHome()
-    // console.log("students kuch khaas", students[0].map((item)=>item.name.name));
+    // console.log("students kuch khaas", students[0]);
     // const readData = students[0][0];
     // console.log("Kuch Khhas", readData);
 
@@ -48,11 +48,11 @@ const Home = () => {
                     </th>
                 </thead>
                 <tbody>
-                    {students.map((item)=>{
+                    {/* {students[0].map((item)=>{
                         return <tr>
                             <td>{item.name}</td>
                         </tr>
-                    })}        
+                    })}         */}
                 </tbody>
             </table>
         

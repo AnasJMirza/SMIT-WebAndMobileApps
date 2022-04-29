@@ -18,9 +18,8 @@ export const FETCH_STUDENT = "FETCH_STUDENT";
 
 export const AddStudent = (data) => async (dispatch) => {
     try {
-        const docRef = await addDoc(collection(db, "students"), {
-            name : data
-          });
+        // console.log("Check : ",data.name);
+        const docRef = await addDoc(collection(db, "students"), {name : data.name});
 
           
           
