@@ -5,7 +5,7 @@ import { FetchStudent } from '../../store/actions/AddStudent';
 
 const UseHome = () => {
     const dispatch = useDispatch();
-    const students = useSelector((Store)=> Store.StudentReducer)
+    const students = useSelector((Store)=> Store.StudentReducer.allStudents)
     console.log("store Data = ", students);
 
     return {

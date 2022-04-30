@@ -1,5 +1,5 @@
 
-import { addDoc, collection, getDoc } from "firebase/firestore"; 
+import { addDoc, collection, getDocs } from "firebase/firestore"; 
 import React from "react";
 import { db } from "../../config/firebase";
 import 'react-toastify/dist/ReactToastify.css';
@@ -19,7 +19,7 @@ export const FETCH_STUDENT = "FETCH_STUDENT";
 export const AddStudent = (data) => async (dispatch) => {
     try {
         // console.log("Check : ",data.name);
-        const docRef = await addDoc(collection(db, "students"), {name : data.name});
+        const docRef = await addDoc(collection(db, "students"), data);
 
           
           
@@ -39,14 +39,26 @@ export const AddStudent = (data) => async (dispatch) => {
 }
 
 
-export const FetchStudent = (data) => async (dispatch) => {
+export const FetchStudent = () => async (dispatch) => {
     try {
+        let students = []
+
+        const studentsCollection = collection(db, "students")
+        // console.log("before await");
+        const firebaseData = await getDocs(studentsCollection)
+        // console.log("before await");
+        const cleanData = firebaseData.docs.map((item)=>{
+            students.push(item.data())
+        })
+        // console.log("Cleaen Data array = ", students);
+
+
         dispatch({
             type:FETCH_STUDENT,
-            payload: data
+            payload: students
         })
     } catch (error) {
-        
+        console.log("FETCH ERROR : ", error);
     }
 }
 

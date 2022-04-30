@@ -1,29 +1,29 @@
 import { ADD_STUDENT, FETCH_STUDENT } from "../actions/AddStudent"
 
 
-const initialState = [
-    
-]
+const initialState = {
+    allStudents : [
+        
+    ]
+}
 
 export default function StudentReducer(state=initialState, action) {
     console.log("Reducer getting the data");
-    let newStudents = action.payload
+    
     switch (action.type) {
 
         case ADD_STUDENT:
-            return [
+            let newStudents = action.payload
+            return {
                 ...state,
-                newStudents
-            ]
+                allStudents : [...state.allStudents, newStudents]
+            }
         case FETCH_STUDENT:
-            console.log("FETCH STUDENT");
-            console.log(action.payload);
-
-            let newData = action.payload
-            return [
+            return{
                 ...state,
-                newData
-            ]
+                allStudents : action.payload
+            }
+            
                 
             
     

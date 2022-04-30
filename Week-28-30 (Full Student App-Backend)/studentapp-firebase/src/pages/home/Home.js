@@ -10,22 +10,22 @@ import { FetchStudent, FETCH_STUDENT } from '../../store/actions/AddStudent';
 const Home = () => {
     const dispatch = useDispatch()
 
-    const studentsCollection = collection(db, "students")
+    // const studentsCollection = collection(db, "students")
 
     useEffect(()=>{
-        const getData = async ()=>{
-            const firebaseData = await getDocs(studentsCollection)
+        // const getData = async ()=>{
+            // const firebaseData = await getDocs(studentsCollection)
             // console.log(firebaseData.docs.map((item)=>item.data()));
-            const cleanData = firebaseData.docs.map((item)=>item.data())
+            // const cleanData = firebaseData.docs.map((item)=>item.data())
+            console.log("UseEffect Running");
+            dispatch(FetchStudent())
+        // }
 
-            dispatch(FetchStudent(cleanData))
-        }
-
-        getData();
+        // getData();
     }, [])
 
     const {students} = UseHome()
-    // console.log("students kuch khaas", students[0]);
+    console.log("students kuch khaas", students);
     // const readData = students[0][0];
     // console.log("Kuch Khhas", readData);
 
@@ -48,11 +48,11 @@ const Home = () => {
                     </th>
                 </thead>
                 <tbody>
-                    {/* {students[0].map((item)=>{
+                    {students.map((item)=>{
                         return <tr>
                             <td>{item.name}</td>
                         </tr>
-                    })}         */}
+                    })}        
                 </tbody>
             </table>
         
