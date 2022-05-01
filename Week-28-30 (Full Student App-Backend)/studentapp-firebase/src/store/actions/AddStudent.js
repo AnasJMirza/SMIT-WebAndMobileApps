@@ -20,18 +20,14 @@ export const AddStudent = (data) => async (dispatch) => {
     try {
         // console.log("Check : ",data.name);
         const docRef = await addDoc(collection(db, "students"), data);
-
+        
+        dispatch( {
+        type: ADD_STUDENT,
+        payload: data
+        })
           
+        // console.log("Dtaa added to firebase");
           
-          
-          dispatch( {
-            type: ADD_STUDENT,
-            payload: data
-           })
-
-           
-           
-           console.log("Dtaa added to firebase");
         
     } catch (error) {
         console.log(error);       

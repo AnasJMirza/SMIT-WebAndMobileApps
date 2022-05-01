@@ -7,20 +7,41 @@ import { AddStudent } from '../../store/actions/AddStudent';
 const UseForm = () => {
 
     let dispatch = useDispatch();
-    let name = ""
+    let newName;
+    let newRollNum;
+    let newDegree;
 
     const nameGetter = (e)=>{
-        name = e.target.value;
+        newName = e.target.value;
+        
+    }
+
+    const rollNumGetter = (e)=>{
+        newRollNum = e.target.value;
+        
+    }
+
+    const degreeGetter = (e)=>{
+        newDegree = e.target.value;
         
     }
 
     const submitHandler = ()=>{
-        console.log("Name dispatched");
-        dispatch(AddStudent({name:name}))
+        if (newName != "") {
+            // console.log("Name dispatched");
+            dispatch(AddStudent({
+                name : newName,
+                rollNum : newRollNum,
+                degree : newDegree
+            }))    
+        }
+        
     }
 
     return {
         nameGetter,
+        rollNumGetter,
+        degreeGetter,
         submitHandler
     };
 };

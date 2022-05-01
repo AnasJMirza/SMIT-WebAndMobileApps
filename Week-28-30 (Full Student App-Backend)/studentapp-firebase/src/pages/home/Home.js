@@ -1,62 +1,49 @@
-import React, { useEffect } from 'react';
 import Button from '../../components/button/Button';
 import UseHome from './UseHome';
-import { collection, getDocs } from 'firebase/firestore';
-import { db } from '../../config/firebase';
-import { async } from '@firebase/util';
-import { useDispatch } from 'react-redux';
-import { FetchStudent, FETCH_STUDENT } from '../../store/actions/AddStudent';
+import './Home.css'
 
 const Home = () => {
-    const dispatch = useDispatch()
-
-    // const studentsCollection = collection(db, "students")
-
-    useEffect(()=>{
-        // const getData = async ()=>{
-            // const firebaseData = await getDocs(studentsCollection)
-            // console.log(firebaseData.docs.map((item)=>item.data()));
-            // const cleanData = firebaseData.docs.map((item)=>item.data())
-            console.log("UseEffect Running");
-            dispatch(FetchStudent())
-        // }
-
-        // getData();
-    }, [])
 
     const {students} = UseHome()
-    console.log("students kuch khaas", students);
-    // const readData = students[0][0];
-    // console.log("Kuch Khhas", readData);
-
-    // const arr = {
-    //     name : {name : 'Anas'}
-    // }
-    // console.log(arr.name.name);
-
-
 
 
     return (
         <div>
-            <Button label="Add" route="/add-students" bg="crimson" color="white"/>
 
-            <table border="1">
+            
+
+            <table className='home-table'>
                 <thead>
-                    <th>
-                        <td>Name</td>
-                    </th>
+                    <tr>
+                        <th>Name</th>
+                        <th>RollNum</th>
+                        <th>Degree</th>
+                        <th>Actions</th>
+                    </tr>
                 </thead>
                 <tbody>
                     {students.map((item)=>{
                         return <tr>
                             <td>{item.name}</td>
+                            <td>{item.rollNum}</td>
+                            <td>{item.degree}</td>
+                            <td className='home-actions'>
+                                <div>
+                                    <Button label="Delete"  route bg="red" color="white"/>
+                                </div>
+                                <div>
+                                    <Button label="update"  route bg="blue" color="white"/>
+                                </div>
+                            </td>
                         </tr>
                     })}        
                 </tbody>
             </table>
+            <div className='home-button'>
+                <Button label="Add" route="/add-students" bg="crimson" color="white"/>
+            </div>
         
-            Home
+            
             
         </div>
     );

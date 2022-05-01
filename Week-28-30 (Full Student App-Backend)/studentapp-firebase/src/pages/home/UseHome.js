@@ -8,6 +8,12 @@ const UseHome = () => {
     const students = useSelector((Store)=> Store.StudentReducer.allStudents)
     console.log("store Data = ", students);
 
+
+    useEffect(()=>{
+        console.log("UseEffect Running");
+        dispatch(FetchStudent())   
+    }, [])
+
     return {
         students
     }
