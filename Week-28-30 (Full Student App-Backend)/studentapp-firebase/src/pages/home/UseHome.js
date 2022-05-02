@@ -1,10 +1,17 @@
 import React, { useEffect } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Store from '../../config/Store';
-import { FetchStudent } from '../../store/actions/AddStudent';
+import { deleteStudent, FetchStudent } from '../../store/actions/AddStudent';
 
 const UseHome = () => {
+    
     const dispatch = useDispatch();
+
+    const deleteHandler = ( students, id)=>{
+        dispatch(deleteStudent(students, id))
+    }
+
+
     const students = useSelector((Store)=> Store.StudentReducer.allStudents)
     console.log("store Data = ", students);
 
@@ -14,8 +21,11 @@ const UseHome = () => {
         dispatch(FetchStudent())   
     }, [])
 
+
+
     return {
-        students
+        students,
+        deleteHandler
     }
 };
 

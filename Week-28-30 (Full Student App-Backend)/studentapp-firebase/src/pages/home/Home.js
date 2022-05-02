@@ -4,7 +4,7 @@ import './Home.css'
 
 const Home = () => {
 
-    const {students} = UseHome()
+    const {students, deleteHandler} = UseHome()
 
 
     return (
@@ -28,7 +28,7 @@ const Home = () => {
                             <td>{item.rollNum}</td>
                             <td>{item.degree}</td>
                             <td className='home-actions'>
-                                <div>
+                                <div onClick={()=>deleteHandler(students, item.id)}>
                                     <Button label="Delete"  route bg="red" color="white"/>
                                 </div>
                                 <div>

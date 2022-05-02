@@ -7,9 +7,9 @@ import { AddStudent } from '../../store/actions/AddStudent';
 const UseForm = () => {
 
     let dispatch = useDispatch();
-    let newName;
-    let newRollNum;
-    let newDegree;
+    let newName = "";
+    let newRollNum = "";
+    let newDegree = "";
 
     const nameGetter = (e)=>{
         newName = e.target.value;
@@ -27,14 +27,14 @@ const UseForm = () => {
     }
 
     const submitHandler = ()=>{
-        if (newName != "") {
+        // if (newName != "") {
             // console.log("Name dispatched");
             dispatch(AddStudent({
                 name : newName,
                 rollNum : newRollNum,
                 degree : newDegree
             }))    
-        }
+        // }
         
     }
 

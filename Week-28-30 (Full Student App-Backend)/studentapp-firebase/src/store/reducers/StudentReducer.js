@@ -1,4 +1,4 @@
-import { ADD_STUDENT, FETCH_STUDENT } from "../actions/AddStudent"
+import { ADD_STUDENT, DELETE_STUDENT, FETCH_STUDENT } from "../actions/AddStudent"
 
 
 const initialState = {
@@ -23,6 +23,12 @@ export default function StudentReducer(state=initialState, action) {
                 ...state,
                 allStudents : action.payload
             }
+
+        // case DELETE_STUDENT:
+        //     return{
+        //         // ...state,
+        //         // allStudents : action.payload
+        //     }
             
                 
             
