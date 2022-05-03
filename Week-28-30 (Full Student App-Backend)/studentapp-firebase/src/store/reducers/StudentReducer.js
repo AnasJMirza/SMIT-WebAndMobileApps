@@ -24,11 +24,12 @@ export default function StudentReducer(state=initialState, action) {
                 allStudents : action.payload
             }
 
-        // case DELETE_STUDENT:
-        //     return{
-        //         // ...state,
-        //         // allStudents : action.payload
-        //     }
+        case DELETE_STUDENT:
+            
+        return{
+            ...state,
+            allStudents : action.payload
+        }
             
                 
             

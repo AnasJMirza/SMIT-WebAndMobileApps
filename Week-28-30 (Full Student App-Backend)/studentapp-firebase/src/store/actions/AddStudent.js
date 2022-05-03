@@ -41,21 +41,17 @@ export const AddStudent = (data) => async (dispatch) => {
 
 export const deleteStudent = (students, id)=> async (dispatch) =>{
     try {
-        // students.filter(()=>{
-        //     if
-        // })
+        
         const studentId = doc(db, "students", id)
         await deleteDoc(studentId)
 
-        // let check = [
-        //     {name : 'haha'},
-        //     {rollNum : 2},
-        //     {degree : 'haha'}
-        // ]
-        // dispatch({
-        //     type : DELETE_STUDENT,
-        //     payload: check
-        // })
+        const newStudents = students.filter(item => item.id !== id)
+        
+
+        dispatch({
+            type : DELETE_STUDENT,
+            payload: newStudents
+        })
         
     } catch (error) {
         console.log(error);

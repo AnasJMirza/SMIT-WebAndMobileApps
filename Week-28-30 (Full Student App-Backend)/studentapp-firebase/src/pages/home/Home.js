@@ -5,6 +5,7 @@ import './Home.css'
 const Home = () => {
 
     const {students, deleteHandler} = UseHome()
+    console.log("Students Check : ", students);
 
 
     return (
