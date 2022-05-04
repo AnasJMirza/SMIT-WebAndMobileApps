@@ -10,7 +10,7 @@ const UseHome = () => {
     const [loader, setLoader] = useState(false);
 
     const deleteHandler = ( students, id)=>{
-        dispatch(deleteStudent(students, id))
+        dispatch(deleteStudent(students, id, setLoader))
     }
 
 

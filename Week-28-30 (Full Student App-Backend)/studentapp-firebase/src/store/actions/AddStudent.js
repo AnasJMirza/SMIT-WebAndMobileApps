@@ -20,7 +20,8 @@ export const DELETE_STUDENT = "DELETE_STUDENT";
 // }
 
 
-export const AddStudent = (data) => async (dispatch) => {
+export const AddStudent = (data, setLoader) => async (dispatch) => {
+    setLoader(true)
     try {
         // console.log("Check : ",data.name);
         const docRef = await addDoc(collection(db, "students"), data);
@@ -36,10 +37,14 @@ export const AddStudent = (data) => async (dispatch) => {
     } catch (error) {
         console.log(error);       
     }
+    finally{
+        setLoader(false)
+    }
 }
 
 
-export const deleteStudent = (students, id)=> async (dispatch) =>{
+export const deleteStudent = (students, id, setLoader)=> async (dispatch) =>{
+    setLoader(true)
     try {
         
         const studentId = doc(db, "students", id)
@@ -55,6 +60,9 @@ export const deleteStudent = (students, id)=> async (dispatch) =>{
         
     } catch (error) {
         console.log(error);
+    }
+    finally{
+        setLoader(false)
     }
 }
 

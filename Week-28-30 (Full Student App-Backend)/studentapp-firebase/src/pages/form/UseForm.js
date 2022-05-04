@@ -1,12 +1,17 @@
 
+import { useState } from 'react';
 import { useDispatch } from 'react-redux';
 import { AddStudent } from '../../store/actions/AddStudent';
 
 
 
+
 const UseForm = () => {
 
+    const [loader, setLoader] = useState(false)
+
     let dispatch = useDispatch();
+
     let newName = "";
     let newRollNum = "";
     let newDegree = "";
@@ -33,7 +38,7 @@ const UseForm = () => {
                 name : newName,
                 rollNum : newRollNum,
                 degree : newDegree
-            }))    
+            }, setLoader))    
         // }
         
     }

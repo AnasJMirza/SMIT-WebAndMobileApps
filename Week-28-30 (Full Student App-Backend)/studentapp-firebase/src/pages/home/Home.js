@@ -1,4 +1,6 @@
 import Button from '../../components/button/Button';
+import ClipLoader from "react-spinners/ClipLoader";
+import PuffLoader from "react-spinners/PuffLoader";
 import UseHome from './UseHome';
 import './Home.css'
 
@@ -9,7 +11,10 @@ const Home = () => {
     // console.log("Students Check : ", students)
 
     if(loader){
-        return <div>Loading...</div>
+        return <div className='loader'>
+            <ClipLoader color={"crimson"}  size={50} />
+            {/* <PuffLoader color={"crimson"}  size={50} /> */}
+        </div>
     }
 
     return (
