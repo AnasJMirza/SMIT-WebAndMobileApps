@@ -2,11 +2,15 @@ import Button from '../../components/button/Button';
 import UseHome from './UseHome';
 import './Home.css'
 
+
 const Home = () => {
+    
+    const {students, deleteHandler, loader} = UseHome()
+    // console.log("Students Check : ", students)
 
-    const {students, deleteHandler} = UseHome()
-    console.log("Students Check : ", students);
-
+    if(loader){
+        return <div>Loading...</div>
+    }
 
     return (
         <div>

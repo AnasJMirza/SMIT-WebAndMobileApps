@@ -59,7 +59,8 @@ export const deleteStudent = (students, id)=> async (dispatch) =>{
 }
 
 
-export const FetchStudent = () => async (dispatch) => {
+export const FetchStudent = (setLoader) => async (dispatch) => {
+    setLoader(true)
     try {
         let students = []
 
@@ -79,6 +80,9 @@ export const FetchStudent = () => async (dispatch) => {
         })
     } catch (error) {
         console.log("FETCH ERROR : ", error);
+    }
+    finally{
+        setLoader(false)
     }
 }
 

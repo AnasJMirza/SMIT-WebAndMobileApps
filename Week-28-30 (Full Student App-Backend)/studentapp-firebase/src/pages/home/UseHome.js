@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import Store from '../../config/Store';
 import { deleteStudent, FetchStudent } from '../../store/actions/AddStudent';
@@ -6,6 +6,8 @@ import { deleteStudent, FetchStudent } from '../../store/actions/AddStudent';
 const UseHome = () => {
     
     const dispatch = useDispatch();
+
+    const [loader, setLoader] = useState(false);
 
     const deleteHandler = ( students, id)=>{
         dispatch(deleteStudent(students, id))
@@ -18,14 +20,16 @@ const UseHome = () => {
 
     useEffect(()=>{
         console.log("UseEffect Running");
-        dispatch(FetchStudent())   
+        dispatch(FetchStudent(setLoader))   
     }, [])
 
 
 
     return {
         students,
-        deleteHandler
+        loader,
+        deleteHandler,
+
     }
 };
 
