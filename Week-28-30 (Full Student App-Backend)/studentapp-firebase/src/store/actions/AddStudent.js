@@ -6,6 +6,8 @@ import 'react-toastify/dist/ReactToastify.css';
 import { async } from "@firebase/util";
 import { deleteDoc, doc } from "firebase/firestore";
 import { useDispatch } from "react-redux";
+import { toast } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 
 export const ADD_STUDENT = "ADD_STUDENT";
@@ -24,14 +26,17 @@ export const AddStudent = (data, setLoader) => async (dispatch) => {
     setLoader(true)
     try {
         // console.log("Check : ",data.name);
-        const docRef = await addDoc(collection(db, "students"), data);
+        await addDoc(collection(db, "students"), data);
         
         dispatch( {
         type: ADD_STUDENT,
         payload: data
         })
+        
+        toast.success("Ho Gya Add Bhai!");
+        console.log("Dtaa added to firebase");
           
-        // console.log("Dtaa added to firebase");
+        
           
         
     } catch (error) {

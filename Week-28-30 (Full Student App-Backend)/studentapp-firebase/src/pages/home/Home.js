@@ -3,6 +3,7 @@ import ClipLoader from "react-spinners/ClipLoader";
 import PuffLoader from "react-spinners/PuffLoader";
 import UseHome from './UseHome';
 import './Home.css'
+import { ToastContainer } from 'react-toastify';
 
 
 const Home = () => {
@@ -19,7 +20,9 @@ const Home = () => {
 
     return (
         <div>
-
+            <>
+                <ToastContainer/>
+            </>
             
 
             <table className='home-table'>
