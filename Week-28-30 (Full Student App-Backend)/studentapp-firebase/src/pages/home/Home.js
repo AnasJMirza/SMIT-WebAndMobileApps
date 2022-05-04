@@ -21,7 +21,14 @@ const Home = () => {
     return (
         <div>
             <>
-                <ToastContainer/>
+                <ToastContainer
+                    position="top-right"
+                    autoClose={5000}
+                    closeOnClick
+                    pauseOnFocusLoss
+                    draggable
+                    pauseOnHover
+                />
             </>
             
 

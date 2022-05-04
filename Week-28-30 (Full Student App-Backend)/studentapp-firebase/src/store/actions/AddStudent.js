@@ -34,7 +34,6 @@ export const AddStudent = (data, setLoader) => async (dispatch) => {
         })
         
         toast.success("Ho Gya Add Bhai!");
-        console.log("Dtaa added to firebase");
           
         
           
@@ -62,6 +61,7 @@ export const deleteStudent = (students, id, setLoader)=> async (dispatch) =>{
             type : DELETE_STUDENT,
             payload: newStudents
         })
+        toast.error("Ho Gya Delete Bhai!");
         
     } catch (error) {
         console.log(error);
