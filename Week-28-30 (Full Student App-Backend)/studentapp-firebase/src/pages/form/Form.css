@@ -1,0 +1,37 @@
+.main-body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+
+.form-body{
+    border: 2px solid crimson;
+    border-radius: 10px;
+    padding: 10px 20px;
+    width: 35vw;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 70vh;
+}
+
+.add-students{
+    font-size: 30px;
+    font-weight: 600;
+    color: crimson;
+}
+
+.input-feilds{
+    display: flex;
+    flex-direction: column;
+    /* height: 60vh; */
+}
+
+.input{
+    padding: 3px 10px;
+    margin-top: 10px;
+    height: 7vh;
+}
