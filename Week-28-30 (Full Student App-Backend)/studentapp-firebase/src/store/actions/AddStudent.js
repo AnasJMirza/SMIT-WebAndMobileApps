@@ -28,10 +28,10 @@ export const AddStudent = (data, setLoader) => async (dispatch) => {
         // console.log("Check : ",data.name);
         await addDoc(collection(db, "students"), data);
         
-        dispatch( {
-        type: ADD_STUDENT,
-        payload: data
-        })
+        // dispatch( {
+        // type: ADD_STUDENT,
+        // payload: data
+        // })
         
         toast.success("Ho Gya Add Bhai!");
           
