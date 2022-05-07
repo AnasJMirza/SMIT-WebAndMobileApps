@@ -1,5 +1,5 @@
 
-import { addDoc, collection, getDocs } from "firebase/firestore"; 
+import { addDoc, collection, getDocs, updateDoc } from "firebase/firestore"; 
 import React from "react";
 import { db } from "../../config/firebase";
 import 'react-toastify/dist/ReactToastify.css';
@@ -69,6 +69,10 @@ export const deleteStudent = (students, id, setLoader)=> async (dispatch) =>{
     finally{
         setLoader(false)
     }
+}
+
+export const updateStudent = (doc) => async (dispatch) =>{
+    
 }
 
 

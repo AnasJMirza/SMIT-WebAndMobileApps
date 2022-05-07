@@ -1,7 +1,9 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
+import { doc } from 'firebase/firestore';
 import Store from '../../config/Store';
-import { deleteStudent, FetchStudent } from '../../store/actions/AddStudent';
+import { deleteStudent, FetchStudent, updateStudent } from '../../store/actions/AddStudent';
+import { db } from '../../config/firebase';
 
 const UseHome = () => {
     
@@ -11,6 +13,13 @@ const UseHome = () => {
 
     const deleteHandler = ( students, id)=>{
         dispatch(deleteStudent(students, id, setLoader))
+    }
+
+    const updateHandler = (name, id)=>{
+        const doc = (db, 'students', id);
+
+        console.log(name, id);
+
     }
 
 
@@ -29,6 +38,7 @@ const UseHome = () => {
         students,
         loader,
         deleteHandler,
+        updateHandler
 
     }
 };
