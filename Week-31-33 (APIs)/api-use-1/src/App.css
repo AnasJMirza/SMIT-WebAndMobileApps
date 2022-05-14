@@ -16,6 +16,7 @@
 *{
   
   font-family: poppins;
+  background-color: #f0f0f0;
 }
 
 .App-header {
@@ -43,14 +44,25 @@
 }
 
 
+
+
 .card{
-  border: 5px solid crimson;
+  border: 1px solid rgb(221, 221, 221);
   border-radius: 10px;
+  background-color: white;
   margin-top: 100vh;
   width: 20%;
   margin: 0 auto;
 
   padding: 40px 20px;
+  transition: all 0.2s ease-in;
+  
+  
+}
+
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 2px 2px -0px 2px  #e4e4e4;
 }
 
 .rupee{
@@ -60,4 +72,9 @@
   border-radius: 5px;
   color: white;
   cursor: pointer;
+}
+
+h2{
+  background-color: white;
+  
 }
