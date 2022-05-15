@@ -1,6 +1,0 @@
-
-
-
-const fetchStudent = () => {
-    
-}

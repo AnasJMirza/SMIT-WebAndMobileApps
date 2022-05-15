@@ -1,0 +1,9 @@
+.footer-body{
+    background-color: crimson;
+    height: 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 13px;
+}

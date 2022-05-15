@@ -1,8 +1,8 @@
 import { combineReducers } from "redux";
-import ApiReducer from "./ApiReducer";
+import FetchReducer from "./FetchReducer";
 
 const RootReducer = combineReducers({
-    ApiReducer,
+    FetchReducer
 })
 
 export default RootReducer;

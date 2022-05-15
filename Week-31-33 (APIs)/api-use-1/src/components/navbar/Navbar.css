@@ -1,0 +1,19 @@
+.navbar-body{
+    background-color: crimson;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-items{
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+    list-style: none;   
+}
+
+.navbar-item{
+    text-decoration: none;
+    color: white;
+}
