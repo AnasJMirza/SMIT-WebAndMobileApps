@@ -6,7 +6,7 @@ import "./Home.css";
 import { ToastContainer } from "react-toastify";
 
 const Home = () => {
-  const { students, deleteHandler, updateHandler, loader } = UseHome();
+  const { students, deleteHandler, update, loader } = UseHome();
   // console.log("Students Check : ", students)
 
   if (loader) {
@@ -51,8 +51,8 @@ const Home = () => {
                   <div onClick={() => deleteHandler(students, item.id)}>
                     <Button label="Delete" route bg="red" color="white" />
                   </div>
-                  <div onClick={() => updateHandler(item.name, item.id)}>
-                    <Button label="update" route bg="blue" color="white" />
+                  <div onClick={() => update(item.id)}>
+                    <Button label="update" route='/add-students' bg="blue" color="white" />
                   </div>
                 </td>
               </tr>

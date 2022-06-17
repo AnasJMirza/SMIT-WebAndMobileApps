@@ -18,6 +18,8 @@ function App() {
         <div className='counter'>{counter}</div>
         <div className='btn'><button className='plusButton' onClick={()=> dispatch(doIncrement())}>+</button></div>
       </div>
+
+      
       
     </div>
   );

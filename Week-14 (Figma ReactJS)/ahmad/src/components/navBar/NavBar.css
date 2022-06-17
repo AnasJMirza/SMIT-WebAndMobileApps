@@ -1,0 +1,19 @@
+
+@font-face {
+    font-family: Roboto medium;
+    src: url('../../assets/fonts/Roboto/Roboto-Medium.ttf');
+}
+
+.navigation{
+    margin-top: 20px;
+}
+
+.nav-link{
+    color: rgba(15, 43, 74, 1);
+    font-family: Roboto medium;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    /* line-height: 19px; */
+    /* letter-spacing: 0em; */
+}

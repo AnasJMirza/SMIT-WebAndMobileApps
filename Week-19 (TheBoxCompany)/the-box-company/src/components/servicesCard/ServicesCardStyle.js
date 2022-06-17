@@ -10,7 +10,9 @@ const style = {
         borderRadius : '4px',
         backgroundColor : '#2947A9',
         cursor : 'pointer',
+        
     },
+
 
     background : {
         width : '20%',

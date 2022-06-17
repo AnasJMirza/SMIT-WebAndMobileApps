@@ -6,7 +6,7 @@ import style from './ProjectStyle';
 
 const Project = () => {
     return (
-        <div>
+        <div id="projects">
             <Grid container marginTop={"90px"}>
 
                 
@@ -14,9 +14,9 @@ const Project = () => {
                     <p style={style.head}>Projects</p>
                     <div style={style.flex}>
                         <p style={style.selected}>  |&nbsp; All</p>
-                        <p> &nbsp; Commercial</p>   
-                        <p> &nbsp; Residential</p>
-                        <p> &nbsp; Other</p>
+                        <p style={style.options}> &nbsp; Commercial</p>   
+                        <p style={style.options}> &nbsp; Residential</p>
+                        <p style={style.options}> &nbsp; Other</p>
                     </div>
                 </Grid>
 

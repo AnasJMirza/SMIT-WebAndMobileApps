@@ -1,11 +1,15 @@
 import React, { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
-import { doc } from 'firebase/firestore';
+import { doc, updateDoc } from 'firebase/firestore';
 import Store from '../../config/Store';
 import { deleteStudent, FetchStudent, updateStudent } from '../../store/actions/AddStudent';
 import { db } from '../../config/firebase';
+import { async } from '@firebase/util';
+
 
 const UseHome = () => {
+    
+    
     
     const dispatch = useDispatch();
 
@@ -15,12 +19,12 @@ const UseHome = () => {
         dispatch(deleteStudent(students, id, setLoader))
     }
 
-    const updateHandler = (name, id)=>{
-        const doc = (db, 'students', id);
-
-        console.log(name, id);
-
+    const update = async (id)  =>{
+        const ref = doc(db, "students", id)
+        await updateDoc(ref, {name:"OKAy"})
+        console.log("DOne");
     }
+    
 
 
     const students = useSelector((Store)=> Store.StudentReducer.allStudents)
@@ -32,13 +36,15 @@ const UseHome = () => {
         dispatch(FetchStudent(setLoader))   
     }, [])
 
+    
 
 
     return {
         students,
         loader,
         deleteHandler,
-        updateHandler
+        update,
+        
 
     }
 };

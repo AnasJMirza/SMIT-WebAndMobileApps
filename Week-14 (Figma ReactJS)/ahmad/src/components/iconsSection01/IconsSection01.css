@@ -1,0 +1,45 @@
+@font-face {
+    font-family: inter;
+    src: url('../../assets/fonts/Inter/static/Inter-Regular.ttf');
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url('../../assets/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+
+
+.iconHeadSection01{
+    font-family: inter;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 31px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(15, 43, 74, 1);
+}
+
+.iconParaSection01{
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: rgba(87, 107, 129, 1);
+
+}
+
+
+.iconFlex{
+    display: flex;
+    justify-content: center;
+    padding: 80px;
+}
+
+.iconSelected{
+    box-shadow: 8px 104px 122px -15px rgba(204, 205, 208, 0.15);
+}

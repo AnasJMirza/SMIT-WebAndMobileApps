@@ -23,6 +23,11 @@ const style = {
     selected : {
         color : '#2947A9',
         fontWeight : '700',
+        cursor : 'pointer',
+    },
+
+    options : {
+        cursor : 'pointer',
     },
 
     btnFlex : {

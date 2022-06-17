@@ -1,0 +1,16 @@
+@font-face {
+    font-family: inter;
+    src: url('../../assets//fonts/Inter/static/Inter-Regular.ttf');
+}
+
+
+.headingSec02{
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}

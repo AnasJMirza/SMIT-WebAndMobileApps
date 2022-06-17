@@ -6,7 +6,7 @@ import style from './ContactUsStyle'
 
 const ContactUs = () => {
     return (
-        <div style={style.BG}>
+        <div style={style.BG} id="contact">
             <h1 style={style.head}>What can us do for you?</h1>
             
             <Grid container justifyContent={"center"}>

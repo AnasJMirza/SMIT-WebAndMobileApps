@@ -1,0 +1,97 @@
+@font-face {
+    font-family: inter;
+    src: url(../../assets/fonts/Inter/static/Inter-Regular.ttf);
+}
+
+@font-face {
+    font-family: Roboto;
+    src: url(../../assets/fonts/Roboto/Roboto-Regular.ttf);
+}
+
+
+
+.bgSec02{
+    border: 1px solid rgba(239, 239, 239, 1);
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 29px 43px 70px -10px rgba(189, 189, 189, 0.16);
+    /* box-shadow: 8px 104px 122px -15px rgba(204, 205, 208, 0.15); */
+}
+
+.imgSec02{
+    width: 124%;
+    padding: 10px 0px;
+    position: relative;
+    right: 12px;
+}
+
+.priceSec02{
+    font-family: inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 29px;
+    letter-spacing: 0.02em;
+    text-align: left;
+    color: rgba(34, 137, 255, 1);
+    line-height: 29px;
+    letter-spacing: 0.02em;
+}
+
+.locationSec02{
+    font-family: inter;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: rgba(15, 43, 74, 1);
+}
+
+.addressSec02{
+    color: #576B81;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+.paddingSec02{
+    padding: 10px 0px;
+}
+
+.btnSec02{
+    font-family: Roboto;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.marginSec02{
+    margin-left: 10px;
+}
+
+.mainMarginSec02{
+    margin-left: 40px;
+    
+}
+
+.btnMarginSec02{
+    margin-top: 9px;
+}
+
+.countParaSec02{
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 14px;
+    color: #576B81;
+}

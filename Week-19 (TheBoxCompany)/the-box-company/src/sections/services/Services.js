@@ -8,7 +8,7 @@ import style from './ServicesStyle';
 const Services = () => {
 
     return (
-        <div style={style.background}>
+        <div style={style.background} id="services">
             <h1 style={style.mainHead}>Services</h1>
 
             <Grid container justifyContent="space-around">

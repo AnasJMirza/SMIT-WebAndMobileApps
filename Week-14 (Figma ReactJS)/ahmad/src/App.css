@@ -1,0 +1,41 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.headerButton{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.headerMargin{
+    margin-top: 100px;
+}
+
+.secendoryPicPosition{
+    position: relative;
+    top: 330px;
+    right: 45px;
+    
+}
+
+.sponsers{
+  /* margin-top: 100px; */
+  /* width: 200px; */
+  border: 2px solid black;
+}
+
+.headingSection01{
+  margin-top: 100px;
+}
+
+
+.sec02Flex{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.sec2Margin{
+  margin-top: 200px;
+}
+

@@ -4,7 +4,7 @@ import style from './AboutUsStyle';
 
 const AboutUs = () => {
     return (
-        <div style={style.background}>
+        <div style={style.background} id="about-us">
             <Grid container>
                 <Grid item md={7}></Grid>
 

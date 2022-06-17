@@ -11,8 +11,6 @@ const Footer = () => {
     return (
         <div >
             <Grid container style={style.main} marginTop="15vh">
-
-
                 <Grid item md={6}>
                     <div style={style.mainFlex}>
                         <div style={style.contactFlex}>

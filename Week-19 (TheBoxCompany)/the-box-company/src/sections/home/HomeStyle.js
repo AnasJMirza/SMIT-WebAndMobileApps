@@ -1,6 +1,3 @@
-import { padding } from "@mui/system";
-
-
 const style = {
     background : {
         height : '90vh',
@@ -10,7 +7,6 @@ const style = {
         backgroundRepeat : 'no-repeat'
 
     },
-
     heading : {
         fontFamily: 'poppins',
         fontStyle: 'normal',
@@ -20,7 +16,6 @@ const style = {
         color: '#292E3D',
         marginLeft : '95px',
     },
-
     FP : {
         backgroundColor : '#3559C7',
         height : '150px',
@@ -31,7 +26,6 @@ const style = {
         justifyContent : 'space-around',
         alignItems : 'center',
     },
-
     FPHeading : {
         fontFamily: 'poppins',
         fontStyle: 'normal',
