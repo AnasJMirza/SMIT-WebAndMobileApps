@@ -1,4 +1,5 @@
 const Joi = require("joi");
+const logger = require("./logger");
 const express = require("express");
 const app = express();
 
@@ -15,6 +16,13 @@ const courses = [
 // Middle ware
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(logger);
+
+// Environment practice
+
+console.log(app.get('env'));
+console.log(process.env.NODE_ENV);
 
 // Restful APIS
 
